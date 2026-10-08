@@ -31,7 +31,7 @@
 | FiiO ASIO 实测 | 修正原生 DSD 的显式声道格式／立体声回调；已连接设备的 192 kHz PCM、DSD64 原生和 DoP 完成启播、暂停、跳转和停止验证。 |
 | 启动与 DSF 修正 | 正常刷新取消加载时不再弹出 `ERR_ABORTED` 启动失败；修正已测到的 DSF 最后完整块漏读，完整 DSD／DoP 载荷已比较。 |
 
-Sony AI 来源为 [Sony 官方 DMP-Z1 1.02 固件](https://www.sony.jp/audio/update/pc_update_dmp-z1.html)中的 DseeAi／DSX 3.0.7。
+Sony AI 来源为 [Sony 官方 DMP-Z1 1.02 固件](https://www.sony.jp/audio/update/pc_update_dmp-z1.html)中的 DSEE AI ／ DSX 3.0.7。
 
 Windows 播放使用 C++ 运算，不再运行 ARM 模拟器。真实 ALAC 十秒片段的三效果输出和内部状态也与原版逐位一致，处理时间从 18.22 秒降至 3.31 秒；这台主机的二十秒音频约 0.89 秒开始原生播放。五分钟曲目从第 180 秒切换音效，约 0.67 秒完成起播缓冲。详见 [源码与验证](native/sony/README.md)、[Sony 说明](docs/SONY-WALKMAN.md)。
 
