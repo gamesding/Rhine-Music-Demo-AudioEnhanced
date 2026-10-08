@@ -1,0 +1,10 @@
+{
+  "source": "Sony DMP-Z1 v1.02 DSX 3.0.7",
+  "function": "DSEEHX_CReLU_neon_f32",
+  "address": "0x184c3c",
+  "cases": 36,
+  "outputValues": 8912,
+  "bitExact": true,
+  "mismatches": [],
+  "scope": "One activation kernel only; not a complete DSEE AI port"
+}

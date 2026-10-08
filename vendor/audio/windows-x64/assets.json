@@ -1,0 +1,44 @@
+{
+  "architecture": "windows-x64",
+  "files": {
+    "bass.dll": "febb2cf1882d554c3a958280777da0b69f07de6e262df271de11c56e4a54afd4",
+    "bassasio.dll": "73bf79c8eccd63dea8eb3e3e9b5ffe6f9406deb9bbcccc7557ca54f5013b4b96",
+    "bassdsd.dll": "2fb0fa095cc04046185ff572689ec0b74baa3124a907e7be3796aabfdb1a266f",
+    "bassflac.dll": "09efd682cea33e58ea7a892942d36bde5963218596e6ad68f17807fb57f069cd",
+    "bassopus.dll": "af0e891cc923bd685a1cdde2842838458d0218afa0fdfd919a5e4582b6ab239b",
+    "rhine-audio-host.exe": "c2a4dc23ae6ad899c25797bbd59e16e759df8689c2c9ab3de076e986ba097f4b"
+  },
+  "sources": [
+    {
+      "name": "bass",
+      "url": "https://www.un4seen.com/files/bass24.zip",
+      "archiveSha256": "3a03ec9a33d0f4f9d167660da51c8bb1432e8977496995455ab137277d69636e"
+    },
+    {
+      "name": "bassasio",
+      "url": "https://www.un4seen.com/files/bassasio14.zip",
+      "archiveSha256": "54bfe2f051338bb016b4ca08f840b93e72ee7edfc9bf0245f08d7edc6c72f45d"
+    },
+    {
+      "name": "bassdsd",
+      "url": "https://www.un4seen.com/files/bassdsd24.zip",
+      "archiveSha256": "9e77ef048fa9bed4466a62b61cd5781ceb932fa8beb2e144306dca46ccde445f"
+    },
+    {
+      "name": "bassflac",
+      "url": "https://www.un4seen.com/files/bassflac24.zip",
+      "archiveSha256": "147280210f62a80e52094e1822e73a16fd3b1a8c9c857c24dcca7dcfcb4ffa14"
+    },
+    {
+      "name": "bassopus",
+      "url": "https://www.un4seen.com/files/bassopus24.zip",
+      "archiveSha256": "1fb6e033289ea968ca1fd02dea154a2e5d06bb9c2e33cdeda277e63084d9ad20"
+    },
+    {
+      "name": "nlohmann-json",
+      "url": "https://raw.githubusercontent.com/nlohmann/json/v3.12.0/single_include/nlohmann/json.hpp",
+      "sha256": "aaf127c04cb31c406e5b04a63f1ae89369fccde6d8fa7cdda1ed4f32dfc5de63"
+    }
+  ],
+  "sourceSha256": "7f854bc531037222b6d50088a715472776a7fa3048dbfac3b1fffd5519d78126"
+}

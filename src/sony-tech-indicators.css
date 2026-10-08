@@ -1,0 +1,69 @@
+.sony-tech-indicators {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 18px 28px;
+  margin: 22px 0 8px;
+  color: #232722;
+  transition: color 650ms linear;
+}
+.music-app[data-theme="night"] .sony-tech-indicators { color: #e9eef2; }
+.sony-tech-indicators[data-count="0"] { display: none; }
+.sony-legal-notice {
+  display: grid;
+  gap: 5px;
+  margin-top: 20px;
+  padding-top: 14px;
+  border-top: 1px solid var(--line);
+  color: var(--muted);
+  font-size: 12px;
+}
+.sony-legal-notice small { font-size: 10px; }
+.sony-tech-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+  animation: sony-tech-appear 420ms linear both;
+}
+.sony-tech-badge[hidden] { display: none; }
+.sony-tech-caption { font-size: 8px; letter-spacing: 1.15px; color: inherit; opacity: .65; }
+.sony-tech-symbol {
+  display: block;
+  position: relative;
+  flex-shrink: 0;
+  width: 64px;
+  height: 18px;
+  background: currentColor;
+  opacity: .76;
+  -webkit-mask: var(--sony-mark) center / contain no-repeat;
+  mask: var(--sony-mark) center / contain no-repeat;
+}
+.sony-tech-symbol::after {
+  content: "";
+  position: absolute;
+  inset: -30% -60%;
+  background: linear-gradient(110deg, transparent 35%, var(--surface) 50%, transparent 65%);
+  opacity: .22;
+  transform: translateX(-110%);
+  animation: sony-tech-light 12s linear infinite;
+}
+.sony-tech-dsee { --sony-mark: url("/audio-tech/dsee.svg"); }
+.sony-tech-phase { --sony-mark: url("/audio-tech/s-master.svg"); width: 120px; }
+.sony-tech-vinyl {
+  --sony-mark: url("/audio-tech/vinyl.svg");
+  width: 25px;
+  height: 25px;
+  animation: sony-tech-spin 48s linear infinite;
+}
+.sony-tech-indicators[data-playing="false"] .sony-tech-symbol,
+.sony-tech-indicators[data-playing="false"] .sony-tech-symbol::after { animation-play-state: paused; }
+@keyframes sony-tech-appear { from { opacity: 0; transform: translateY(4px); } to { opacity: 1; transform: translateY(0); } }
+@keyframes sony-tech-light { from { transform: translateX(-110%); } to { transform: translateX(110%); } }
+@keyframes sony-tech-spin { to { transform: rotate(360deg); } }
+.reduce-motion .sony-tech-badge, .reduce-motion .sony-tech-symbol,
+.reduce-motion .sony-tech-symbol::after { animation: none; }
+.reduce-motion .sony-tech-indicators { transition: none; }
+@media (prefers-reduced-motion: reduce) {
+  .sony-tech-badge, .sony-tech-symbol, .sony-tech-symbol::after { animation: none; }
+  .sony-tech-indicators { transition: none; }
+}

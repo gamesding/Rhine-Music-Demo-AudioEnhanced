@@ -1,0 +1,45 @@
+{
+  "name": "rhine-music-demo",
+  "version": "0.3.0",
+  "license": "MIT",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "node scripts/export-records.mjs",
+    "dev": "vite --host 127.0.0.1",
+    "prebuild": "node scripts/export-records.mjs",
+    "check:content": "node --experimental-strip-types --test scripts/check-content.mjs",
+    "check:viewport": "node --experimental-strip-types scripts/check-viewport.mjs",
+    "review:mobile": "node scripts/serve-mobile-review.mjs",
+    "export:archives": "node scripts/export-records.mjs",
+    "build": "tsc && vite build && node scripts/build-pwa.mjs",
+    "format": "prettier --write src scripts index.html package.json tsconfig.json",
+    "preview": "vite preview --host 127.0.0.1",
+    "music": "node scripts/music-server.mjs",
+    "package:windows": "node scripts/package-desktop.mjs",
+    "build:native": "node scripts/build-native-audio.mjs",
+    "build:sony": "node scripts/build-sony-x86.mjs",
+    "check:sony": "node scripts/check-sony-x86.mjs",
+    "check:native": "node --test scripts/check-native-output.mjs",
+    "check:hires": "node --experimental-strip-types --test scripts/check-hi-res.mjs",
+    "check:platform": "node --test scripts/check-platform.mjs scripts/check-music-launcher.mjs",
+    "check:audio": "node --test scripts/check-ftp-library.mjs scripts/check-sony-integration.mjs scripts/check-music-player.mjs scripts/check-audio-rates.mjs",
+    "check:music": "node --test scripts/check-platform.mjs scripts/check-music-launcher.mjs scripts/check-music-library.mjs scripts/check-album-introductions.mjs scripts/check-online-sources.mjs && node scripts/check-music-scene.mjs && node --experimental-strip-types --test scripts/check-music-player.mjs && node scripts/check-music-motion.mjs && node scripts/check-music-camera.mjs && node scripts/check-music-lighting.mjs && node scripts/check-music-presentation.mjs && node scripts/check-music-model.mjs"
+  },
+  "dependencies": {
+    "@kitlangton/rolling-number": "0.4.1",
+    "basic-ftp": "6.2.2",
+    "music-metadata": "^11.15.0",
+    "opencc-js": "^1.4.2",
+    "three": "^0.183.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.183.0",
+    "prettier": "^3.9.6",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.1"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

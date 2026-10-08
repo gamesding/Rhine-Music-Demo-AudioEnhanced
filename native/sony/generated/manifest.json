@@ -1,0 +1,8 @@
+{
+  "sourceSha256": "f08934816d91e9e5f7f34230fc0996403bb6a063c58f03a40269476778bbe6f6",
+  "instructionSites": 32159,
+  "pages": 65,
+  "generator": "scripts/sony-walkman/lift.py",
+  "status": "validated against original ARM: 246 supported PCM configurations",
+  "verification": "docs/SONY-X86-VERIFICATION.json"
+}

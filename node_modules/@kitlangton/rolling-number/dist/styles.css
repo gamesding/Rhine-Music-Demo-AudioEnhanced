@@ -1,0 +1,96 @@
+.rn-root {
+  display: inline-block;
+  position: relative;
+  white-space: pre;
+  unicode-bidi: isolate;
+  vertical-align: baseline;
+}
+.rn-root > .rn-measure,
+.rn-root > .rn-visual { display: none; }
+.rn-root[data-rn-measuring] > .rn-measure {
+  display: inline-flex;
+  position: relative;
+  visibility: hidden;
+  white-space: pre;
+  padding: 0;
+  border: 0;
+}
+.rn-token { display: inline-block; padding: 0; border: 0; }
+.rn-root[data-rn-measuring] > .rn-value,
+.rn-react[data-rn-hydrated] > .rn-semantic,
+.rn-solid[data-rn-hydrated] > .rn-semantic {
+  position: absolute;
+  inset: 0;
+  padding: 0;
+  margin: 0;
+  color: transparent;
+  z-index: 1;
+}
+/* A single native text layer is selectable; decorative reels never enter a copy. */
+.rn-value::selection, .rn-semantic::selection {
+  color: HighlightText;
+  background: Highlight;
+}
+.rn-root[data-rn-ready] > .rn-visual {
+  display: block;
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  user-select: none;
+}
+.rn-slot {
+  position: absolute;
+  left: 0;
+  overflow: hidden;
+  /* Space for italic overhang without changing the measured advance width. */
+  box-sizing: content-box;
+  padding-inline: 0.15em;
+  margin-inline-start: -0.15em;
+  -webkit-mask-image: var(--rn-mask, linear-gradient(
+    to bottom,
+    transparent,
+    #000 var(--rn-edge-fade, 0.12em),
+    #000 calc(100% - var(--rn-edge-fade, 0.12em)),
+    transparent
+  ));
+  mask-image: var(--rn-mask, linear-gradient(
+    to bottom,
+    transparent,
+    #000 var(--rn-edge-fade, 0.12em),
+    #000 calc(100% - var(--rn-edge-fade, 0.12em)),
+    transparent
+  ));
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+@supports (overflow: clip) {
+  .rn-slot { overflow-x: visible; overflow-y: clip; }
+}
+.rn-slot:not([data-rn-wheel]) {
+  overflow: visible;
+  -webkit-mask-image: none;
+  mask-image: none;
+}
+.rn-enter, .rn-reel, .rn-face { display: block; }
+.rn-reel { position: relative; }
+.rn-ink { display: block; position: absolute; inset: 0; will-change: transform; }
+/* Safari's SVG filter must rasterize the smear's descendants into its input. */
+.rn-smear .rn-ink { will-change: auto; }
+/* Each turning half carries its own perspective transform, not a shared 3D scene. */
+/* The slot acts as the bezel: the card stays vertically framed while it hinges. */
+.rn-slot[data-rn-flap] { -webkit-mask-image: none; mask-image: none; }
+/* Hinged faces must occlude the cards behind them, including with default CSS. */
+:where(.rn-slot[data-rn-flap]) .rn-face { background: var(--rn-flap-background, Canvas); }
+.rn-flap { position: absolute; inset: 0; transform-origin: 50% 50%; backface-visibility: hidden; }
+/* --rn-crease is the visible hinge gap between the two halves. */
+.rn-flap-top { clip-path: inset(0 0 calc(50% + var(--rn-crease, 1px) / 2) 0); }
+.rn-flap-bottom { clip-path: inset(calc(50% + var(--rn-crease, 1px) / 2) 0 0 0); }
+.rn-sharp, .rn-smear { display: block; }
+.rn-smear { position: absolute; inset: 0; pointer-events: none; }
+.rn-blur-defs { position: absolute; width: 0; height: 0; overflow: hidden; }
+.rn-face { text-align: center; white-space: pre; }
+.rn-react, .rn-solid { display: inline-block; position: relative; white-space: pre; unicode-bidi: isolate; }
+.rn-mount { display: inline-block; user-select: none; }
+.rn-mount .rn-value { pointer-events: none; }
+.rn-react:not([data-rn-hydrated]) > .rn-mount,
+.rn-solid:not([data-rn-hydrated]) > .rn-mount { display: none; }

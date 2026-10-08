@@ -1,0 +1,20 @@
+{
+  "electron": {
+    "version": "44.6.0",
+    "name": "electron-v44.6.0-win32-x64.zip",
+    "url": "https://github.com/electron/electron/releases/download/v44.6.0/electron-v44.6.0-win32-x64.zip",
+    "sha256": "04d6071f8deca081044e1398f96f65e4c1550ffdb3f882504cd78528d821d422"
+  },
+  "python": {
+    "version": "3.14.4",
+    "name": "python-3.14.4-embed-amd64.zip",
+    "url": "https://www.python.org/ftp/python/3.14.4/python-3.14.4-embed-amd64.zip",
+    "sha256": "cda80a9b1e75c0f1b4f9872ca1b417f0d19bce32facc811aea9180e70fad5fb9"
+  },
+  "unicorn": {
+    "version": "2.1.4",
+    "name": "unicorn-2.1.4-cp37-abi3-win_amd64.whl",
+    "url": "https://files.pythonhosted.org/packages/70/3d/de7be9bd1addabe6d8a1369381f8a080400c349850e978689c5e18287957/unicorn-2.1.4-cp37-abi3-win_amd64.whl",
+    "sha256": "d7107500c64ce5c168fbff6bef9485b5db1350050036f4cea568650cf8bdbdf5"
+  }
+}

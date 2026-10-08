@@ -1,0 +1,59 @@
+{
+  "realAudio": true,
+  "sourceRate": 44100,
+  "sourceSeconds": 10,
+  "sourceChannels": 2,
+  "allOriginalAssetsVerified": true,
+  "results": [
+    {
+      "name": "all-on",
+      "dsee": 1,
+      "dc": 2,
+      "vinyl": 1,
+      "sampleRate": 176400,
+      "frames": 1764000,
+      "workers": 3,
+      "renderSeconds": 1.3959101999998893
+    },
+    {
+      "name": "dsee-only",
+      "dsee": 1,
+      "dc": 0,
+      "vinyl": 0,
+      "sampleRate": 176400,
+      "frames": 1764000,
+      "workers": 1,
+      "renderSeconds": 1.2962894999998298
+    },
+    {
+      "name": "dc-only",
+      "dsee": 0,
+      "dc": 2,
+      "vinyl": 0,
+      "sampleRate": 44100,
+      "frames": 441000,
+      "workers": 1,
+      "renderSeconds": 0.2927360999999564
+    },
+    {
+      "name": "vinyl-only",
+      "dsee": 0,
+      "dc": 0,
+      "vinyl": 1,
+      "sampleRate": 44100,
+      "frames": 441000,
+      "workers": 1,
+      "renderSeconds": 0.3416819999999916
+    },
+    {
+      "name": "impulse-dc",
+      "dsee": 0,
+      "dc": 2,
+      "vinyl": 0,
+      "sampleRate": 44100,
+      "frames": 65536,
+      "workers": 1,
+      "renderSeconds": 0.04329989999996542
+    }
+  ]
+}

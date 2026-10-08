@@ -1,0 +1,14 @@
+{
+  "revision": "dmp-z1-1.02-dsx-3.0.7-pcm-stereo-stream-x86-v4",
+  "files": {
+    "libSoundServiceFw.so": "f08934816d91e9e5f7f34230fc0996403bb6a063c58f03a40269476778bbe6f6",
+    "libm-2.23.so": "f8ac4ff6694ffc15dd1c99e8a861057534130fb34210ab3d193a2df7b4f54c51",
+    "libc++.so.1.0": "9fadee972dd7b59eb9f8d12d74c8376c8c52b7e0a71fc8236fbe4d3fdcf5df5b",
+    "DseeAi.bin": "dfc87d4b071c8b6a295690daefc2df889e827c393ae0411d54bcd14d5d3956f4",
+    "DseeAi.dcfg": "ab7841e844f83d9a7dc5dc63c757b8d3d4a43940a20bf061e39a4b3d73cce4f7",
+    "vinyl-preset-1.bin": "90a15299a743917b3cf41b69c2fb7e362edd40dc0eb08dce090663fe31f08a07",
+    "vinyl-preset-2.bin": "5b438155cd839f689e92d1fc704df7eb5fe1cb95c0b536e80dc0bd54ecd53b42",
+    "vinyl-preset-3.bin": "b0e0dd2040e78e5f7079eaa36fb6bd9bf4ea38ff5aa42a5d9817c0849ed8a0c2",
+    "vinyl-preset-4.bin": "bf8002504e35b3e9c0529b03828fe6a3497554fb3b454fe1ea987a61d31f71f1"
+  }
+}

@@ -1,0 +1,3687 @@
+{
+  "schemaVersion": 4,
+  "date": "2026-10-09",
+  "scope": "Current private Windows x64 EXE: live refractive Liquid Glass playback bar, centered icons, linear motion, real-window Pad and playback regression, and paired GPU performance. Prior Sony music spectra and real-file tests are preserved with their exact builds.",
+  "executable": {
+    "name": "Rhine Music.exe",
+    "sha256": "f996d4cd2f4fdaaeb9ec3eb29338eb36da6a675ce278b05092c9b3150e52b4e0",
+    "payloadSha256": "82baaf6b8feb02919c25238f79f5d24413e7c266df98c70dfd22a4586877c0f7",
+    "bytes": 231349760
+  },
+  "isolatedPackage": {
+    "ok": true,
+    "versions": {
+      "electron": "44.6.0",
+      "node": "24.21.0"
+    },
+    "checks": [
+      {
+        "check": "original native DLL hashes / decoder initialization",
+        "passed": true,
+        "asioDrivers": 1
+      },
+      {
+        "check": "DSF ID3 Chinese tags / artwork / unmodified raw DSD64 and DoP markers / payload",
+        "passed": true,
+        "bytes": 16384
+      },
+      {
+        "check": "nine Sony hashes / native C++ DLL hash / embedded transport / original AI, DC, Vinyl initialize",
+        "passed": true,
+        "dseeVersion": "3.0.7",
+        "backend": "x86-cpp"
+      },
+      {
+        "check": "Sony phase independent stereo histories / 24 presets and rates / bit-exact original mono reference",
+        "passed": true,
+        "cases": 24
+      },
+      {
+        "check": "three-effect x86 C++ pipeline / bundled streaming native decode",
+        "passed": true,
+        "sampleRate": 176400,
+        "workers": 3
+      },
+      {
+        "check": "silent native WASAPI playback / pause / seek / stop",
+        "passed": true
+      }
+    ],
+    "coldSeconds": 5.5,
+    "isolatedExeOnly": true,
+    "externalRuntimes": false,
+    "systemDirectoryOnlyPath": true,
+    "secondRunReused": true
+  },
+  "sourceToEmbeddedPayload": {
+    "comparedFiles": 117,
+    "allComparedFilesByteIdentical": true,
+    "nativeAudioSourceSha256": "7f854bc531037222b6d50088a715472776a7fa3048dbfac3b1fffd5519d78126",
+    "nativeAudioExeSha256": "c2a4dc23ae6ad899c25797bbd59e16e759df8689c2c9ab3de076e986ba097f4b",
+    "sonyDllSha256": "f5aa02c1dd93e209c88080a96b4ec141a2cf27fc382b613d4600b0d94c43e4db",
+    "allOriginalSonyAssets": 9,
+    "compiledGlassAndPlaybackPresent": true,
+    "uiSourceHashes": {
+      "src/music-playback.ts": "5a5914154e56aad79e9bb6d3d4a54b425d6076da64f7e580acb2f7514320838e",
+      "src/music-playback.css": "3cdfe39323790496b934c5e80e4a00ed34e1f1c0e928c800afea4642935a1f99",
+      "src/playback-glass.ts": "fa071e55b9484a36a15c3d9a8d4215bd6d2d8cc6de647843b9749970181ccf9c",
+      "src/scene.ts": "4805fb09ae62ae10f6fa2de9b0d16c94ca4146741e526793464e2cbe458d27ab",
+      "src/music-app.ts": "4e5427bccac06c0fe6e99eccfd4f47bae0e18682b2ffcc195f9b52b1326eba6a",
+      "src/music.css": "0f96b8b2e79b1a72e6ffa235ca2f5125991f36a87312bffcd96905bc77c7c566",
+      "Memory.md": "8f516b6bcc3e5a891b97978c2e13c1071e419f9097236a497a6cd940a924a6b7"
+    }
+  },
+  "desktop": {
+    "executableSha256": "f996d4cd2f4fdaaeb9ec3eb29338eb36da6a675ce278b05092c9b3150e52b4e0",
+    "actualElectronWindowBounds": true,
+    "deviceMetricsOverride": false,
+    "zoomFactor": 1,
+    "touchInput": "CDP touch event emulation, not a physical Pad",
+    "views": [
+      {
+        "width": 1267,
+        "height": 804,
+        "dpr": 1.25,
+        "theme": "day",
+        "layout": "desktop",
+        "horizontalOverflow": false,
+        "bar": {
+          "x": 42,
+          "y": 692,
+          "width": 1183.2000732421875,
+          "height": 80,
+          "right": 1225.2000732421875,
+          "bottom": 772
+        },
+        "seekHeight": 44,
+        "minimumControlHeight": 44,
+        "detailAbovePlayer": true,
+        "footerVisible": true,
+        "sonyLogos": 3,
+        "playing": "0:53",
+        "totalTime": "3:00",
+        "iconsPlaying": [
+          {
+            "label": "暂停",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "停止",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "上一曲或回到开头",
+            "xOffset": 0.000003814697265625,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "暂停",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 52,
+            "height": 52
+          },
+          {
+            "label": "下一曲",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "查看正在播放的曲目",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "iconsPaused": [
+          {
+            "label": "播放",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "停止",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "上一曲或回到开头",
+            "xOffset": 0.000003814697265625,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "播放",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 52,
+            "height": 52
+          },
+          {
+            "label": "下一曲",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "查看正在播放的曲目",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "glassRadius": 40,
+        "glassNightMix": 0
+      },
+      {
+        "width": 1267,
+        "height": 804,
+        "dpr": 1.25,
+        "theme": "night",
+        "layout": "desktop",
+        "horizontalOverflow": false,
+        "bar": {
+          "x": 42,
+          "y": 692,
+          "width": 1183.2000732421875,
+          "height": 80,
+          "right": 1225.2000732421875,
+          "bottom": 772
+        },
+        "seekHeight": 44,
+        "minimumControlHeight": 44,
+        "detailAbovePlayer": true,
+        "footerVisible": true,
+        "sonyLogos": 3,
+        "playing": "0:53",
+        "totalTime": "3:00",
+        "iconsPlaying": [
+          {
+            "label": "暂停",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "停止",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "上一曲或回到开头",
+            "xOffset": 0.000003814697265625,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "暂停",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 52,
+            "height": 52
+          },
+          {
+            "label": "下一曲",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "查看正在播放的曲目",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "iconsPaused": [
+          {
+            "label": "播放",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "停止",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "上一曲或回到开头",
+            "xOffset": 0.000003814697265625,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "播放",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 52,
+            "height": 52
+          },
+          {
+            "label": "下一曲",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "查看正在播放的曲目",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "glassRadius": 40,
+        "glassNightMix": 1
+      },
+      {
+        "width": 727,
+        "height": 794,
+        "dpr": 1.25,
+        "theme": "day",
+        "layout": "portrait",
+        "horizontalOverflow": false,
+        "bar": {
+          "x": 29.087499618530273,
+          "y": 650,
+          "width": 669.0250244140625,
+          "height": 111.5999984741211,
+          "right": 698.1125240325928,
+          "bottom": 761.5999984741211
+        },
+        "seekHeight": 44,
+        "minimumControlHeight": 44,
+        "detailAbovePlayer": true,
+        "footerVisible": true,
+        "sonyLogos": 3,
+        "playing": "0:54",
+        "totalTime": "3:00",
+        "iconsPlaying": [
+          {
+            "label": "暂停",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "停止",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "上一曲或回到开头",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "暂停",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 52,
+            "height": 52
+          },
+          {
+            "label": "下一曲",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "iconsPaused": [
+          {
+            "label": "播放",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "停止",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "上一曲或回到开头",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "播放",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 52,
+            "height": 52
+          },
+          {
+            "label": "下一曲",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "glassRadius": 30,
+        "glassNightMix": 0
+      },
+      {
+        "width": 727,
+        "height": 794,
+        "dpr": 1.25,
+        "theme": "night",
+        "layout": "portrait",
+        "horizontalOverflow": false,
+        "bar": {
+          "x": 29.087499618530273,
+          "y": 650,
+          "width": 669.0250244140625,
+          "height": 111.5999984741211,
+          "right": 698.1125240325928,
+          "bottom": 761.5999984741211
+        },
+        "seekHeight": 44,
+        "minimumControlHeight": 44,
+        "detailAbovePlayer": true,
+        "footerVisible": true,
+        "sonyLogos": 3,
+        "playing": "0:54",
+        "totalTime": "3:00",
+        "iconsPlaying": [
+          {
+            "label": "暂停",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "停止",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "上一曲或回到开头",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "暂停",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 52,
+            "height": 52
+          },
+          {
+            "label": "下一曲",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "iconsPaused": [
+          {
+            "label": "播放",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "停止",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "上一曲或回到开头",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "播放",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 52,
+            "height": 52
+          },
+          {
+            "label": "下一曲",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "glassRadius": 30,
+        "glassNightMix": 1
+      },
+      {
+        "width": 1027,
+        "height": 794,
+        "dpr": 1.25,
+        "theme": "night",
+        "layout": "compact",
+        "horizontalOverflow": false,
+        "bar": {
+          "x": 24,
+          "y": 681.6000366210938,
+          "width": 979.2000122070312,
+          "height": 80,
+          "right": 1003.2000122070312,
+          "bottom": 761.6000366210938
+        },
+        "seekHeight": 44,
+        "minimumControlHeight": 44,
+        "detailAbovePlayer": true,
+        "footerVisible": true,
+        "sonyLogos": 3,
+        "playing": "0:55",
+        "totalTime": "3:00",
+        "iconsPlaying": [
+          {
+            "label": "暂停",
+            "xOffset": 0,
+            "yOffset": -0.0000019073486328125,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "停止",
+            "xOffset": 0,
+            "yOffset": -0.0000019073486328125,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "上一曲或回到开头",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "暂停",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 52,
+            "height": 52
+          },
+          {
+            "label": "下一曲",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "iconsPaused": [
+          {
+            "label": "播放",
+            "xOffset": 0,
+            "yOffset": -0.0000019073486328125,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "停止",
+            "xOffset": 0,
+            "yOffset": -0.0000019073486328125,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "上一曲或回到开头",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "播放",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 52,
+            "height": 52
+          },
+          {
+            "label": "下一曲",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "glassRadius": 40,
+        "glassNightMix": 1
+      },
+      {
+        "width": 1387,
+        "height": 804,
+        "dpr": 1.25,
+        "theme": "night",
+        "layout": "desktop",
+        "horizontalOverflow": false,
+        "bar": {
+          "x": 53.60000228881836,
+          "y": 692,
+          "width": 1280,
+          "height": 80,
+          "right": 1333.6000022888184,
+          "bottom": 772
+        },
+        "seekHeight": 44,
+        "minimumControlHeight": 44,
+        "detailAbovePlayer": true,
+        "footerVisible": true,
+        "sonyLogos": 3,
+        "playing": "0:55",
+        "totalTime": "3:00",
+        "iconsPlaying": [
+          {
+            "label": "暂停",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "停止",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "上一曲或回到开头",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "暂停",
+            "xOffset": 0.00000762939453125,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 52,
+            "height": 52
+          },
+          {
+            "label": "下一曲",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "查看正在播放的曲目",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "iconsPaused": [
+          {
+            "label": "播放",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "停止",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "上一曲或回到开头",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "播放",
+            "xOffset": 0.00000762939453125,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 52,
+            "height": 52
+          },
+          {
+            "label": "下一曲",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          },
+          {
+            "label": "查看正在播放的曲目",
+            "xOffset": 0,
+            "yOffset": 0,
+            "svgDisplay": "block",
+            "width": 44,
+            "height": 44
+          }
+        ],
+        "glassRadius": 40,
+        "glassNightMix": 1
+      }
+    ],
+    "pageErrors": [],
+    "graphicsErrors": [],
+    "exitCode": 0
+  },
+  "liquidGlass": {
+    "implementation": "Independent rounded-distance-field scene refraction inside the existing Three.js OutputPass; not Apple framework or copied Shadertoy code.",
+    "usesLiveSceneTexture": true,
+    "extraSceneRender": false,
+    "extraWebglContext": false,
+    "extraRenderTarget": false,
+    "applicationPixelReadback": false,
+    "cssBlurDisabledWhenGpuActive": true,
+    "portraitAndLandscapeVeilsExposeLens": true,
+    "themeAdaptation": true,
+    "linearRimAndGlint": true,
+    "linearTouchHighlight": true,
+    "linearCoverCrossfade": true,
+    "reducedMotionStopsDynamicLight": true,
+    "iconCentersMaximumToleranceCssPx": 0.01,
+    "minimumTouchTargetCssPx": 44,
+    "memory": "Memory.md",
+    "shader": "src/playback-glass.ts",
+    "pixelProof": {
+      "name": "actual GPU lens on/off pixel comparison with frozen scene, and reduced motion",
+      "insideMean": 24.93553373850663,
+      "outsideMean": 0,
+      "changedInsideFraction": 0.9589527816736793,
+      "width": 1734,
+      "height": 1005,
+      "reduced": true
+    },
+    "screenshots": [
+      "liquid-glass-day.png",
+      "liquid-glass-night.png",
+      "liquid-glass-pad-day.png",
+      "liquid-glass-pad-night.png"
+    ],
+    "referenceLinks": [
+      "https://developer.apple.com/videos/play/wwdc2025/219/",
+      "https://www.shadertoy.com/view/wcKSRD",
+      "https://www.shadertoy.com/view/3cdXDX"
+    ],
+    "shadertoySourceFetched": false
+  },
+  "performance": {
+    "hardware": "NVIDIA RTX A4500 / ANGLE D3D11",
+    "measurement": "Sequential actual EXE runs, matched native viewport and high quality; eight six-second RAF samples per build. Synthetic silent PCM with Sony OFF isolates rendering. No viewport emulation or software GPU forcing.",
+    "viewport": {
+      "width": 1266,
+      "height": 779,
+      "dpr": 1.25,
+      "screen": 1536,
+      "outerWidth": 1280
+    },
+    "currentExecutableSha256": "f996d4cd2f4fdaaeb9ec3eb29338eb36da6a675ce278b05092c9b3150e52b4e0",
+    "baselineExecutableSha256": "5a9d53aff0227405898b98a63cd90c8d9ccc700e7aba3c2a9650bdec14ca7a2e",
+    "current": [
+      {
+        "name": "archive",
+        "fps": 99.64947421131697,
+        "frameMs": {
+          "p50": 10,
+          "p95": 10.100000000000364,
+          "p99": 10.199999999998909,
+          "max": 10.200000000000728
+        },
+        "over50ms": 0,
+        "drawCalls": 46,
+        "triangles": 1172580,
+        "renderQuality": {
+          "ratio": 1.250394968813253,
+          "width": 1583,
+          "height": 974,
+          "limited": false,
+          "antialias": "smaa",
+          "transmission": 1,
+          "anisotropy": 16,
+          "aoSamples": 32,
+          "aoWidth": 1583,
+          "aoHeight": 974,
+          "shadows": 4096,
+          "depthOfField": 100
+        }
+      },
+      {
+        "name": "scroll-array",
+        "fps": 97.81175410191787,
+        "frameMs": {
+          "p50": 10,
+          "p95": 10.100000000002183,
+          "p99": 10.200000000000728,
+          "max": 120.40000000000146
+        },
+        "over50ms": 1,
+        "drawCalls": 63,
+        "triangles": 1175288,
+        "renderQuality": {
+          "ratio": 1.250394968813253,
+          "width": 1583,
+          "height": 974,
+          "limited": false,
+          "antialias": "smaa",
+          "transmission": 1,
+          "anisotropy": 16,
+          "aoSamples": 32,
+          "aoWidth": 1583,
+          "aoHeight": 974,
+          "shadows": 4096,
+          "depthOfField": 100
+        }
+      },
+      {
+        "name": "open-detail",
+        "fps": 99.31398240723743,
+        "frameMs": {
+          "p50": 10,
+          "p95": 10.100000000002183,
+          "p99": 10.200000000000728,
+          "max": 20
+        },
+        "over50ms": 0,
+        "drawCalls": 46,
+        "triangles": 1172580,
+        "renderQuality": {
+          "ratio": 1.250394968813253,
+          "width": 1583,
+          "height": 974,
+          "limited": false,
+          "antialias": "smaa",
+          "transmission": 1,
+          "anisotropy": 16,
+          "aoSamples": 32,
+          "aoWidth": 1583,
+          "aoHeight": 974,
+          "shadows": 4096,
+          "depthOfField": 100
+        }
+      },
+      {
+        "name": "detail",
+        "fps": 99.64839779373784,
+        "frameMs": {
+          "p50": 10,
+          "p95": 10.100000000002183,
+          "p99": 10.10000000000582,
+          "max": 10.599999999998545
+        },
+        "over50ms": 0,
+        "drawCalls": 46,
+        "triangles": 1172580,
+        "renderQuality": {
+          "ratio": 1.250394968813253,
+          "width": 1583,
+          "height": 974,
+          "limited": false,
+          "antialias": "smaa",
+          "transmission": 1,
+          "anisotropy": 16,
+          "aoSamples": 32,
+          "aoWidth": 1583,
+          "aoHeight": 974,
+          "shadows": 4096,
+          "depthOfField": 100
+        }
+      },
+      {
+        "name": "playing-bar",
+        "fps": 99.64781091953066,
+        "frameMs": {
+          "p50": 10,
+          "p95": 10.10000000000582,
+          "p99": 10.200000000004366,
+          "max": 10.200000000004366
+        },
+        "over50ms": 0,
+        "drawCalls": 46,
+        "triangles": 1172580,
+        "renderQuality": {
+          "ratio": 1.250394968813253,
+          "width": 1583,
+          "height": 974,
+          "limited": false,
+          "antialias": "smaa",
+          "transmission": 1,
+          "anisotropy": 16,
+          "aoSamples": 32,
+          "aoWidth": 1583,
+          "aoHeight": 974,
+          "shadows": 4096,
+          "depthOfField": 100
+        }
+      },
+      {
+        "name": "theme",
+        "fps": 99.48089666338404,
+        "frameMs": {
+          "p50": 10,
+          "p95": 10.10000000000582,
+          "p99": 10.19999999999709,
+          "max": 19.89999999999418
+        },
+        "over50ms": 0,
+        "drawCalls": 48,
+        "triangles": 1172580,
+        "renderQuality": {
+          "ratio": 1.250394968813253,
+          "width": 1583,
+          "height": 974,
+          "limited": false,
+          "antialias": "smaa",
+          "transmission": 1,
+          "anisotropy": 16,
+          "aoSamples": 32,
+          "aoWidth": 1583,
+          "aoHeight": 974,
+          "shadows": 4096,
+          "depthOfField": 100
+        }
+      },
+      {
+        "name": "next-album",
+        "fps": 99.64781091953066,
+        "frameMs": {
+          "p50": 10,
+          "p95": 10.10000000000582,
+          "p99": 10.19999999999709,
+          "max": 10.30000000000291
+        },
+        "over50ms": 0,
+        "drawCalls": 48,
+        "triangles": 1172580,
+        "renderQuality": {
+          "ratio": 1.250394968813253,
+          "width": 1583,
+          "height": 974,
+          "limited": false,
+          "antialias": "smaa",
+          "transmission": 1,
+          "anisotropy": 16,
+          "aoSamples": 32,
+          "aoWidth": 1583,
+          "aoHeight": 974,
+          "shadows": 4096,
+          "depthOfField": 100
+        }
+      },
+      {
+        "name": "profile",
+        "fps": 99.64781091953066,
+        "frameMs": {
+          "p50": 10,
+          "p95": 10.10000000000582,
+          "p99": 10.10000000000582,
+          "max": 10.200000000004366
+        },
+        "over50ms": 0,
+        "drawCalls": 65,
+        "triangles": 1175288,
+        "renderQuality": {
+          "ratio": 1.250394968813253,
+          "width": 1583,
+          "height": 974,
+          "limited": false,
+          "antialias": "smaa",
+          "transmission": 1,
+          "anisotropy": 16,
+          "aoSamples": 32,
+          "aoWidth": 1583,
+          "aoHeight": 974,
+          "shadows": 4096,
+          "depthOfField": 100
+        }
+      }
+    ],
+    "baseline": [
+      {
+        "name": "archive",
+        "fps": 99.64839779373784,
+        "frameMs": {
+          "p50": 10,
+          "p95": 10.100000000000364,
+          "p99": 10.200000000000728,
+          "max": 10.200000000000728
+        },
+        "over50ms": 0,
+        "drawCalls": 46,
+        "triangles": 1172580,
+        "renderQuality": {
+          "ratio": 1.250394968813253,
+          "width": 1583,
+          "height": 974,
+          "limited": false,
+          "antialias": "smaa",
+          "transmission": 1,
+          "anisotropy": 16,
+          "aoSamples": 32,
+          "aoWidth": 1583,
+          "aoHeight": 974,
+          "shadows": 4096,
+          "depthOfField": 100
+        }
+      },
+      {
+        "name": "scroll-array",
+        "fps": 97.31101133347795,
+        "frameMs": {
+          "p50": 10,
+          "p95": 10.100000000002183,
+          "p99": 10.200000000000728,
+          "max": 120.39999999999964
+        },
+        "over50ms": 1,
+        "drawCalls": 63,
+        "triangles": 1175288,
+        "renderQuality": {
+          "ratio": 1.250394968813253,
+          "width": 1583,
+          "height": 974,
+          "limited": false,
+          "antialias": "smaa",
+          "transmission": 1,
+          "anisotropy": 16,
+          "aoSamples": 32,
+          "aoWidth": 1583,
+          "aoHeight": 974,
+          "shadows": 4096,
+          "depthOfField": 100
+        }
+      },
+      {
+        "name": "open-detail",
+        "fps": 99.31449590369503,
+        "frameMs": {
+          "p50": 10,
+          "p95": 10.100000000002183,
+          "p99": 10.200000000000728,
+          "max": 20.099999999998545
+        },
+        "over50ms": 0,
+        "drawCalls": 46,
+        "triangles": 1172580,
+        "renderQuality": {
+          "ratio": 1.250394968813253,
+          "width": 1583,
+          "height": 974,
+          "limited": false,
+          "antialias": "smaa",
+          "transmission": 1,
+          "anisotropy": 16,
+          "aoSamples": 32,
+          "aoWidth": 1583,
+          "aoHeight": 974,
+          "shadows": 4096,
+          "depthOfField": 100
+        }
+      },
+      {
+        "name": "detail",
+        "fps": 99.64839779373777,
+        "frameMs": {
+          "p50": 10,
+          "p95": 10.100000000002183,
+          "p99": 10.200000000000728,
+          "max": 10.200000000000728
+        },
+        "over50ms": 0,
+        "drawCalls": 46,
+        "triangles": 1172580,
+        "renderQuality": {
+          "ratio": 1.250394968813253,
+          "width": 1583,
+          "height": 974,
+          "limited": false,
+          "antialias": "smaa",
+          "transmission": 1,
+          "anisotropy": 16,
+          "aoSamples": 32,
+          "aoWidth": 1583,
+          "aoHeight": 974,
+          "shadows": 4096,
+          "depthOfField": 100
+        }
+      },
+      {
+        "name": "playing-bar",
+        "fps": 99.64947421131697,
+        "frameMs": {
+          "p50": 10,
+          "p95": 10.10000000000582,
+          "p99": 10.200000000004366,
+          "max": 10.200000000004366
+        },
+        "over50ms": 0,
+        "drawCalls": 46,
+        "triangles": 1172580,
+        "renderQuality": {
+          "ratio": 1.250394968813253,
+          "width": 1583,
+          "height": 974,
+          "limited": false,
+          "antialias": "smaa",
+          "transmission": 1,
+          "anisotropy": 16,
+          "aoSamples": 32,
+          "aoWidth": 1583,
+          "aoHeight": 974,
+          "shadows": 4096,
+          "depthOfField": 100
+        }
+      },
+      {
+        "name": "theme",
+        "fps": 99.64781091953066,
+        "frameMs": {
+          "p50": 10,
+          "p95": 10.10000000000582,
+          "p99": 10.200000000004366,
+          "max": 10.30000000000291
+        },
+        "over50ms": 0,
+        "drawCalls": 48,
+        "triangles": 1172580,
+        "renderQuality": {
+          "ratio": 1.250394968813253,
+          "width": 1583,
+          "height": 974,
+          "limited": false,
+          "antialias": "smaa",
+          "transmission": 1,
+          "anisotropy": 16,
+          "aoSamples": 32,
+          "aoWidth": 1583,
+          "aoHeight": 974,
+          "shadows": 4096,
+          "depthOfField": 100
+        }
+      },
+      {
+        "name": "next-album",
+        "fps": 99.64781091953066,
+        "frameMs": {
+          "p50": 10,
+          "p95": 10.10000000000582,
+          "p99": 10.19999999999709,
+          "max": 11.5
+        },
+        "over50ms": 0,
+        "drawCalls": 48,
+        "triangles": 1172580,
+        "renderQuality": {
+          "ratio": 1.250394968813253,
+          "width": 1583,
+          "height": 974,
+          "limited": false,
+          "antialias": "smaa",
+          "transmission": 1,
+          "anisotropy": 16,
+          "aoSamples": 32,
+          "aoWidth": 1583,
+          "aoHeight": 974,
+          "shadows": 4096,
+          "depthOfField": 100
+        }
+      },
+      {
+        "name": "profile",
+        "fps": 99.64839779373784,
+        "frameMs": {
+          "p50": 10,
+          "p95": 10.10000000000582,
+          "p99": 10.200000000004366,
+          "max": 10.200000000004366
+        },
+        "over50ms": 0,
+        "drawCalls": 48,
+        "triangles": 1172580,
+        "renderQuality": {
+          "ratio": 1.250394968813253,
+          "width": 1583,
+          "height": 974,
+          "limited": false,
+          "antialias": "smaa",
+          "transmission": 1,
+          "anisotropy": 16,
+          "aoSamples": 32,
+          "aoWidth": 1583,
+          "aoHeight": 974,
+          "shadows": 4096,
+          "depthOfField": 100
+        }
+      }
+    ],
+    "playingBarDrawCallsEqual": true,
+    "playingFpsDifferencePercent": -0.0016691425614445698,
+    "otherGpuGuarantee": false
+  },
+  "playback": {
+    "previewDuringTouchDrag": true,
+    "singleSeekOnRelease": true,
+    "touchCancelDoesNotSeek": true,
+    "keyboardSeek": true,
+    "previousNext": true,
+    "volumePersistent": true,
+    "dsdAndDopDigitalGainLocked": true,
+    "controlsDisabledWhenStopped": true,
+    "currentTrackListEntry": true
+  },
+  "sessionRecovery": {
+    "sameNativeSession": true,
+    "noReopenOnReload": true,
+    "preservesTrackQueuePausePositionVolumeAndSony": true,
+    "oldFrontendRequestsFenced": true,
+    "pendingOldOpensCancelled": true,
+    "preferredVolumeIndependentOfFade": true,
+    "pausedRecoveredProducerProgressUpdates": true,
+    "removedTrackStopsOutput": true,
+    "checks": [
+      {
+        "name": "three original Sony effects and bottom transport",
+        "sampleRate": 176400,
+        "logos": 3,
+        "wasapi": true
+      },
+      {
+        "name": "playing reload",
+        "sameSession": true,
+        "noReopen": true,
+        "playing": true,
+        "positionBefore": 0.2146485260770975,
+        "positionAfter": 7.491655328798186,
+        "sony": {
+          "dsee": true,
+          "dc": 2,
+          "vinyl": 1
+        }
+      },
+      {
+        "name": "paused Pad drag preview and single seek",
+        "target": 37,
+        "commits": 1
+      },
+      {
+        "name": "cancelled Pad drag",
+        "commits": 0
+      },
+      {
+        "name": "paused reload",
+        "sameSession": true,
+        "noReopen": true,
+        "playing": false,
+        "positionBefore": 37,
+        "positionAfter": 37,
+        "sony": {
+          "dsee": true,
+          "dc": 2,
+          "vinyl": 1
+        }
+      },
+      {
+        "name": "sort-setting reload",
+        "sameSession": true,
+        "noReopen": true,
+        "playing": false,
+        "positionBefore": 37,
+        "positionAfter": 37,
+        "sony": {
+          "dsee": true,
+          "dc": 2,
+          "vinyl": 1
+        }
+      },
+      {
+        "name": "scan-complete reload",
+        "sameSession": true,
+        "noReopen": true,
+        "playing": true,
+        "positionBefore": 37,
+        "positionAfter": 47.07337868480726,
+        "sony": {
+          "dsee": true,
+          "dc": 2,
+          "vinyl": 1
+        }
+      },
+      {
+        "name": "live lens geometry, centered playing/paused SVGs, linear rim clock and Pad light feedback",
+        "views": 6,
+        "touch": true
+      },
+      {
+        "name": "actual GPU lens on/off pixel comparison with frozen scene, and reduced motion",
+        "insideMean": 24.93553373850663,
+        "outsideMean": 0,
+        "changedInsideFraction": 0.9589527816736793,
+        "width": 1734,
+        "height": 1005,
+        "reduced": true
+      },
+      {
+        "name": "current-track list entry keeps paused transport",
+        "passed": true
+      },
+      {
+        "name": "keyboard seek",
+        "paused": true
+      },
+      {
+        "name": "volume and paused reload",
+        "sameSession": true,
+        "noReopen": true,
+        "playing": false,
+        "positionBefore": 56.5,
+        "positionAfter": 56.5,
+        "sony": {
+          "dsee": true,
+          "dc": 2,
+          "vinyl": 1
+        }
+      },
+      {
+        "name": "next and previous tracks",
+        "passed": true
+      },
+      {
+        "name": "stopped reload",
+        "noGhostPlayback": true
+      },
+      {
+        "name": "FiiO native DSD playing reload",
+        "sameSession": true,
+        "noReopen": true,
+        "playing": true,
+        "positionBefore": 0.25541950113378686,
+        "positionAfter": 7.430385487528345
+      },
+      {
+        "name": "FiiO native DSD paused reload",
+        "sameSession": true,
+        "noReopen": true,
+        "playing": false,
+        "positionBefore": 60,
+        "positionAfter": 60
+      },
+      {
+        "name": "native DSD DAC volume lock, seek and source marks",
+        "dsdRate": 2822400,
+        "quietSynthetic": true
+      },
+      {
+        "name": "FiiO DoP playing reload",
+        "sameSession": true,
+        "noReopen": true,
+        "playing": true,
+        "positionBefore": 0.25541950113378686,
+        "positionAfter": 7.430385487528345
+      },
+      {
+        "name": "FiiO DoP paused reload",
+        "sameSession": true,
+        "noReopen": true,
+        "playing": false,
+        "positionBefore": 30,
+        "positionAfter": 30
+      },
+      {
+        "name": "DoP seek and DAC volume lock",
+        "quietSynthetic": true
+      },
+      {
+        "name": "removed library track stops unrecoverable output",
+        "noGhostPlayback": true
+      }
+    ]
+  },
+  "fiioHardware": {
+    "driver": "FiiO ASIO Driver",
+    "nativeDsd64Rate": 2822400,
+    "dopCarrierRate": 176400,
+    "balancedQuietSyntheticDsd": true,
+    "playingAndPausedRecovery": true,
+    "seekSeconds": [
+      60,
+      30
+    ],
+    "digitalGainLocked": true,
+    "sonyBypassed": true,
+    "realRawDsdMusicListening": false,
+    "verifiedCurrentExecutable": true
+  },
+  "sonyMeasurements": {
+    "originalAssetsVerified": true,
+    "dllSha256": "f5aa02c1dd93e209c88080a96b4ec141a2cf27fc382b613d4600b0d94c43e4db",
+    "backend": "x86-cpp",
+    "realLosslessMusicSegmentSeconds": 10,
+    "inputSampleRate": 44100,
+    "allOnSettings": {
+      "dsee": true,
+      "dc": 2,
+      "vinyl": 1
+    },
+    "rendering": [
+      {
+        "name": "all-on",
+        "dsee": 1,
+        "dc": 2,
+        "vinyl": 1,
+        "sampleRate": 176400,
+        "frames": 1764000,
+        "workers": 3,
+        "renderSeconds": 1.3959101999998893
+      },
+      {
+        "name": "dsee-only",
+        "dsee": 1,
+        "dc": 0,
+        "vinyl": 0,
+        "sampleRate": 176400,
+        "frames": 1764000,
+        "workers": 1,
+        "renderSeconds": 1.2962894999998298
+      },
+      {
+        "name": "dc-only",
+        "dsee": 0,
+        "dc": 2,
+        "vinyl": 0,
+        "sampleRate": 44100,
+        "frames": 441000,
+        "workers": 1,
+        "renderSeconds": 0.2927360999999564
+      },
+      {
+        "name": "vinyl-only",
+        "dsee": 0,
+        "dc": 0,
+        "vinyl": 1,
+        "sampleRate": 44100,
+        "frames": 441000,
+        "workers": 1,
+        "renderSeconds": 0.3416819999999916
+      },
+      {
+        "name": "impulse-dc",
+        "dsee": 0,
+        "dc": 2,
+        "vinyl": 0,
+        "sampleRate": 44100,
+        "frames": 65536,
+        "workers": 1,
+        "renderSeconds": 0.04329989999996542
+      }
+    ],
+    "method": "Hann Welch PSD; 0.18576 s windows; 50% overlap; stereo-mean power; first 1 s and last 0.5 s excluded; common absolute dBFS/Hz normalization",
+    "finite": true,
+    "aggregateOutputs": {
+      "off": {
+        "rate": 44100,
+        "frames": 441000,
+        "finite": true,
+        "peak": 0.62493896484375,
+        "rms": 0.05853835199686007
+      },
+      "all-on": {
+        "rate": 176400,
+        "frames": 1764000,
+        "finite": true,
+        "peak": 0.6377777457237244,
+        "rms": 0.05999167289194874
+      },
+      "dsee-only": {
+        "rate": 176400,
+        "frames": 1764000,
+        "finite": true,
+        "peak": 0.6312597990036011,
+        "rms": 0.058658311620134275
+      },
+      "dc-only": {
+        "rate": 44100,
+        "frames": 441000,
+        "finite": true,
+        "peak": 0.6238279938697815,
+        "rms": 0.059402213372097085,
+        "differenceRmsVsOff": 0.0024759831721097433
+      },
+      "vinyl-only": {
+        "rate": 44100,
+        "frames": 441000,
+        "finite": true,
+        "peak": 0.6244575381278992,
+        "rms": 0.05906327550753576,
+        "differenceRmsVsOff": 0.0036553504189137925
+      },
+      "impulse-off": {
+        "rate": 44100,
+        "frames": 65536,
+        "finite": true,
+        "peak": 0.25,
+        "rms": 0.0007720404443770458
+      },
+      "impulse-dc": {
+        "rate": 44100,
+        "frames": 65536,
+        "finite": true,
+        "peak": 0.24999289214611053,
+        "rms": 0.0007721177206693487
+      }
+    },
+    "syntheticPhase": {
+      "test": "synthetic impulse; left 0.25; right -0.125; frame 512; 65536 frames",
+      "mode": "A STANDARD (2)",
+      "magnitudeMaxAbsDb20Hz20kHz": 0.46712699540937236,
+      "phaseMinDeg20Hz20kHz": 0.0002308669122663397,
+      "phaseMaxDeg20Hz20kHz": 9.029729748445764
+    },
+    "measurementPoint": "Decoded/effected float PCM output, before the DAC; no analogue or subjective quality claim",
+    "privateAudioFilesAndFingerprintsExcluded": true,
+    "musicPlotsLocalIgnoredReleaseOnly": true,
+    "documentation": "SONY-AUDIO-MEASUREMENTS.md",
+    "measurementExecutableSha256": "5a9d53aff0227405898b98a63cd90c8d9ccc700e7aba3c2a9650bdec14ca7a2e",
+    "newlyMeasuredThisRevision": false,
+    "sameOriginalAssetsAndCppDll": true
+  },
+  "sonyTranslation": {
+    "nativeArchitecture": "x86-64 C++ AOT instruction translation",
+    "originalBackend": "Unicorn 2.1.4 Cortex-A7",
+    "provenance": {
+      "sourceSha256": "f08934816d91e9e5f7f34230fc0996403bb6a063c58f03a40269476778bbe6f6",
+      "instructionGraphSha256": "217d7c102899ab3228184d72356b5db27a55aa4681c83d6a53bbf1b0d74d676b",
+      "instructionSites": 32159,
+      "pages": 65,
+      "originalAssets": 9,
+      "originalInstructionBytesVerified": true
+    },
+    "dllSha256": "f5aa02c1dd93e209c88080a96b4ec141a2cf27fc382b613d4600b0d94c43e4db",
+    "cases": 246,
+    "passed": 246,
+    "outputValues": 5046272,
+    "bitExact": true,
+    "stateBitExact": true,
+    "reproducibleCppFiles": 66,
+    "report": "SONY-X86-VERIFICATION.json",
+    "sameOriginalAssetsAndCppDll": true,
+    "full246ComparisonsRerunThisRevision": false
+  },
+  "phaseIsolation": {
+    "configurations": 24,
+    "passed": 24,
+    "leftToRightPeak": 0,
+    "rightToLeftPeak": 0,
+    "originalKernelUnmodified": true,
+    "report": "SONY-PHASE-VERIFICATION.json",
+    "finalPackage24CasesRerun": true
+  },
+  "ratePolicy": {
+    "metadataVersion": 4,
+    "alacSpecificConfigAuthoritative": true,
+    "localOldIndexUpgrade": true,
+    "ftpCachedMetadataUpgrade": true,
+    "dseeInputRates": [
+      44100,
+      48000
+    ],
+    "dcVinylInputRates": [
+      44100,
+      48000,
+      176400,
+      192000
+    ],
+    "unsupportedEffectBypassPreservesSourceRate": true,
+    "backpressureFixture": {
+      "sampleRate": 192000,
+      "seconds": 12,
+      "readerPauseMs": 300,
+      "exactFrames": 2304000
+    },
+    "utf8IncrementalJson": true
+  },
+  "checks": {
+    "audio": 30,
+    "native": 13,
+    "hiRes": 6,
+    "musicCore": {
+      "passed": 61,
+      "skipped": 3
+    },
+    "player": 18,
+    "presentation": 21,
+    "content": 18,
+    "sceneMotionCameraLightingModel": "passed",
+    "viewport": "passed",
+    "typescriptVitePwa": "passed",
+    "finalExeSelfTests": 6,
+    "desktopPlaybackCases": 21,
+    "liquidGlassWindowViews": 6,
+    "pairedGpuSamples": 16
+  },
+  "limits": [
+    "Touch is emulated in real Electron windows; no physical Pad/iPad hardware test.",
+    "Paired performance is specific to RTX A4500 and the recorded viewport/quality, not a guarantee on other PCs.",
+    "DSD64 native and DoP use a balanced quiet synthetic payload; no real raw-DSD listening, analogue measurement, DSD128/256, hot-plug or long-duration stress test this revision.",
+    "Earlier real-file and Sony music spectra evidence is preserved with its original executable hashes; the DSP DLL is unchanged.",
+    "Apple frameworks and the two Shadertoy sources are not bundled; Windows uses the independent renderer implementation."
+  ],
+  "history": {
+    "scope": "All prior measurements apply to their exact preserved build.",
+    "previousSnapshot": {
+      "schemaVersion": 3,
+      "date": "2026-10-08",
+      "scope": "Current private Windows x64 EXE: bottom playback controls, frontend/native session recovery, FiiO DSD64 and DoP recovery, and Sony output measurements. Prior real-file and GPU performance evidence applies to the explicitly preserved earlier build.",
+      "executable": {
+        "name": "Rhine Music.exe",
+        "sha256": "5a9d53aff0227405898b98a63cd90c8d9ccc700e7aba3c2a9650bdec14ca7a2e",
+        "payloadSha256": "a76aed723880fd8cf735f2f3b84b4ec01057b5b60b1c091eb72c770235a7c438",
+        "bytes": 231345152
+      },
+      "isolatedPackage": {
+        "ok": true,
+        "versions": {
+          "electron": "44.6.0",
+          "node": "24.21.0"
+        },
+        "checks": [
+          {
+            "check": "original native DLL hashes / decoder initialization",
+            "passed": true,
+            "asioDrivers": 1
+          },
+          {
+            "check": "DSF ID3 Chinese tags / artwork / unmodified raw DSD64 and DoP markers / payload",
+            "passed": true,
+            "bytes": 16384
+          },
+          {
+            "check": "nine Sony hashes / native C++ DLL hash / embedded transport / original AI, DC, Vinyl initialize",
+            "passed": true,
+            "dseeVersion": "3.0.7",
+            "backend": "x86-cpp"
+          },
+          {
+            "check": "Sony phase independent stereo histories / 24 presets and rates / bit-exact original mono reference",
+            "passed": true,
+            "cases": 24
+          },
+          {
+            "check": "three-effect x86 C++ pipeline / bundled streaming native decode",
+            "passed": true,
+            "sampleRate": 176400,
+            "workers": 3
+          },
+          {
+            "check": "silent native WASAPI playback / pause / seek / stop",
+            "passed": true
+          }
+        ],
+        "coldSeconds": 5.074,
+        "isolatedExeOnly": true,
+        "externalRuntimes": false,
+        "systemDirectoryOnlyPath": true,
+        "secondRunReused": true
+      },
+      "sourceToEmbeddedPayload": {
+        "comparedFiles": 117,
+        "allComparedFilesByteIdentical": true,
+        "nativeAudioSourceSha256": "7f854bc531037222b6d50088a715472776a7fa3048dbfac3b1fffd5519d78126",
+        "nativeAudioExeSha256": "c2a4dc23ae6ad899c25797bbd59e16e759df8689c2c9ab3de076e986ba097f4b",
+        "sonyDllSha256": "f5aa02c1dd93e209c88080a96b4ec141a2cf27fc382b613d4600b0d94c43e4db",
+        "allOriginalSonyAssets": 9
+      },
+      "desktop": {
+        "executableSha256": "5a9d53aff0227405898b98a63cd90c8d9ccc700e7aba3c2a9650bdec14ca7a2e",
+        "actualElectronWindowBounds": true,
+        "deviceMetricsOverride": false,
+        "zoomFactor": 1,
+        "touchInput": "CDP touch event emulation, not a physical Pad",
+        "views": [
+          {
+            "width": 1267,
+            "height": 804,
+            "dpr": 1.25,
+            "theme": "day",
+            "layout": "desktop",
+            "horizontalOverflow": false,
+            "bar": {
+              "x": 42,
+              "y": 702,
+              "width": 1183.2000732421875,
+              "height": 72,
+              "right": 1225.2000732421875,
+              "bottom": 774
+            },
+            "seekHeight": 44,
+            "minimumControlHeight": 44,
+            "detailAbovePlayer": true,
+            "footerVisible": true,
+            "sonyLogos": 3,
+            "totalTime": "3:00"
+          },
+          {
+            "width": 1267,
+            "height": 804,
+            "dpr": 1.25,
+            "theme": "night",
+            "layout": "desktop",
+            "horizontalOverflow": false,
+            "bar": {
+              "x": 42,
+              "y": 702,
+              "width": 1183.2000732421875,
+              "height": 72,
+              "right": 1225.2000732421875,
+              "bottom": 774
+            },
+            "seekHeight": 44,
+            "minimumControlHeight": 44,
+            "detailAbovePlayer": true,
+            "footerVisible": true,
+            "sonyLogos": 3,
+            "totalTime": "3:00"
+          },
+          {
+            "width": 727,
+            "height": 794,
+            "dpr": 1.25,
+            "theme": "day",
+            "layout": "portrait",
+            "horizontalOverflow": false,
+            "bar": {
+              "x": 29.087499618530273,
+              "y": 656,
+              "width": 669.0250244140625,
+              "height": 107.5999984741211,
+              "right": 698.1125240325928,
+              "bottom": 763.5999984741211
+            },
+            "seekHeight": 44,
+            "minimumControlHeight": 44,
+            "detailAbovePlayer": true,
+            "footerVisible": true,
+            "sonyLogos": 3,
+            "totalTime": "3:00"
+          },
+          {
+            "width": 1027,
+            "height": 794,
+            "dpr": 1.25,
+            "theme": "night",
+            "layout": "compact",
+            "horizontalOverflow": false,
+            "bar": {
+              "x": 42,
+              "y": 691.6000366210938,
+              "width": 943.2000122070312,
+              "height": 72,
+              "right": 985.2000122070312,
+              "bottom": 763.6000366210938
+            },
+            "seekHeight": 44,
+            "minimumControlHeight": 44,
+            "detailAbovePlayer": true,
+            "footerVisible": true,
+            "sonyLogos": 3,
+            "totalTime": "3:00"
+          }
+        ],
+        "pageErrors": [],
+        "graphicsErrors": [],
+        "exitCode": 0
+      },
+      "playback": {
+        "previewDuringTouchDrag": true,
+        "singleSeekOnRelease": true,
+        "touchCancelDoesNotSeek": true,
+        "keyboardSeek": true,
+        "previousNext": true,
+        "volumePersistent": true,
+        "dsdAndDopDigitalGainLocked": true,
+        "controlsDisabledWhenStopped": true
+      },
+      "sessionRecovery": {
+        "sameNativeSession": true,
+        "noReopenOnReload": true,
+        "preservesTrackQueuePausePositionVolumeAndSony": true,
+        "oldFrontendRequestsFenced": true,
+        "pendingOldOpensCancelled": true,
+        "preferredVolumeIndependentOfFade": true,
+        "pausedRecoveredProducerProgressUpdates": true,
+        "removedTrackStopsOutput": true,
+        "checks": [
+          {
+            "name": "three original Sony effects and bottom transport",
+            "sampleRate": 176400,
+            "logos": 3,
+            "wasapi": true
+          },
+          {
+            "name": "playing reload",
+            "sameSession": true,
+            "noReopen": true,
+            "playing": true,
+            "positionBefore": 0.22786848072562357,
+            "positionAfter": 7.453968253968254,
+            "sony": {
+              "dsee": true,
+              "dc": 2,
+              "vinyl": 1
+            }
+          },
+          {
+            "name": "paused Pad drag preview and single seek",
+            "target": 37,
+            "commits": 1
+          },
+          {
+            "name": "cancelled Pad drag",
+            "commits": 0
+          },
+          {
+            "name": "paused reload",
+            "sameSession": true,
+            "noReopen": true,
+            "playing": false,
+            "positionBefore": 37,
+            "positionAfter": 37,
+            "sony": {
+              "dsee": true,
+              "dc": 2,
+              "vinyl": 1
+            }
+          },
+          {
+            "name": "sort-setting reload",
+            "sameSession": true,
+            "noReopen": true,
+            "playing": false,
+            "positionBefore": 37,
+            "positionAfter": 37,
+            "sony": {
+              "dsee": true,
+              "dc": 2,
+              "vinyl": 1
+            }
+          },
+          {
+            "name": "scan-complete reload",
+            "sameSession": true,
+            "noReopen": true,
+            "playing": true,
+            "positionBefore": 37,
+            "positionAfter": 46.875765306122446,
+            "sony": {
+              "dsee": true,
+              "dc": 2,
+              "vinyl": 1
+            }
+          },
+          {
+            "name": "keyboard seek",
+            "paused": true
+          },
+          {
+            "name": "volume and paused reload",
+            "sameSession": true,
+            "noReopen": true,
+            "playing": false,
+            "positionBefore": 53,
+            "positionAfter": 53,
+            "sony": {
+              "dsee": true,
+              "dc": 2,
+              "vinyl": 1
+            }
+          },
+          {
+            "name": "next and previous tracks",
+            "passed": true
+          },
+          {
+            "name": "stopped reload",
+            "noGhostPlayback": true
+          },
+          {
+            "name": "FiiO native DSD playing reload",
+            "sameSession": true,
+            "noReopen": true,
+            "playing": true,
+            "positionBefore": 0.25541950113378686,
+            "positionAfter": 7.453605442176871
+          },
+          {
+            "name": "FiiO native DSD paused reload",
+            "sameSession": true,
+            "noReopen": true,
+            "playing": false,
+            "positionBefore": 60,
+            "positionAfter": 60
+          },
+          {
+            "name": "native DSD DAC volume lock, seek and source marks",
+            "dsdRate": 2822400,
+            "quietSynthetic": true
+          },
+          {
+            "name": "FiiO DoP playing reload",
+            "sameSession": true,
+            "noReopen": true,
+            "playing": true,
+            "positionBefore": 0.25541950113378686,
+            "positionAfter": 7.500045351473923
+          },
+          {
+            "name": "FiiO DoP paused reload",
+            "sameSession": true,
+            "noReopen": true,
+            "playing": false,
+            "positionBefore": 30,
+            "positionAfter": 30
+          },
+          {
+            "name": "DoP seek and DAC volume lock",
+            "quietSynthetic": true
+          },
+          {
+            "name": "removed library track stops unrecoverable output",
+            "noGhostPlayback": true
+          }
+        ]
+      },
+      "fiioHardware": {
+        "driver": "FiiO ASIO Driver",
+        "nativeDsd64Rate": 2822400,
+        "dopCarrierRate": 176400,
+        "balancedQuietSyntheticDsd": true,
+        "playingAndPausedRecovery": true,
+        "seekSeconds": [
+          60,
+          30
+        ],
+        "digitalGainLocked": true,
+        "sonyBypassed": true,
+        "realRawDsdMusicListening": false
+      },
+      "sonyMeasurements": {
+        "originalAssetsVerified": true,
+        "dllSha256": "f5aa02c1dd93e209c88080a96b4ec141a2cf27fc382b613d4600b0d94c43e4db",
+        "backend": "x86-cpp",
+        "realLosslessMusicSegmentSeconds": 10,
+        "inputSampleRate": 44100,
+        "allOnSettings": {
+          "dsee": true,
+          "dc": 2,
+          "vinyl": 1
+        },
+        "rendering": [
+          {
+            "name": "all-on",
+            "dsee": 1,
+            "dc": 2,
+            "vinyl": 1,
+            "sampleRate": 176400,
+            "frames": 1764000,
+            "workers": 3,
+            "renderSeconds": 1.3959101999998893
+          },
+          {
+            "name": "dsee-only",
+            "dsee": 1,
+            "dc": 0,
+            "vinyl": 0,
+            "sampleRate": 176400,
+            "frames": 1764000,
+            "workers": 1,
+            "renderSeconds": 1.2962894999998298
+          },
+          {
+            "name": "dc-only",
+            "dsee": 0,
+            "dc": 2,
+            "vinyl": 0,
+            "sampleRate": 44100,
+            "frames": 441000,
+            "workers": 1,
+            "renderSeconds": 0.2927360999999564
+          },
+          {
+            "name": "vinyl-only",
+            "dsee": 0,
+            "dc": 0,
+            "vinyl": 1,
+            "sampleRate": 44100,
+            "frames": 441000,
+            "workers": 1,
+            "renderSeconds": 0.3416819999999916
+          },
+          {
+            "name": "impulse-dc",
+            "dsee": 0,
+            "dc": 2,
+            "vinyl": 0,
+            "sampleRate": 44100,
+            "frames": 65536,
+            "workers": 1,
+            "renderSeconds": 0.04329989999996542
+          }
+        ],
+        "method": "Hann Welch PSD; 0.18576 s windows; 50% overlap; stereo-mean power; first 1 s and last 0.5 s excluded; common absolute dBFS/Hz normalization",
+        "finite": true,
+        "aggregateOutputs": {
+          "off": {
+            "rate": 44100,
+            "frames": 441000,
+            "finite": true,
+            "peak": 0.62493896484375,
+            "rms": 0.05853835199686007
+          },
+          "all-on": {
+            "rate": 176400,
+            "frames": 1764000,
+            "finite": true,
+            "peak": 0.6377777457237244,
+            "rms": 0.05999167289194874
+          },
+          "dsee-only": {
+            "rate": 176400,
+            "frames": 1764000,
+            "finite": true,
+            "peak": 0.6312597990036011,
+            "rms": 0.058658311620134275
+          },
+          "dc-only": {
+            "rate": 44100,
+            "frames": 441000,
+            "finite": true,
+            "peak": 0.6238279938697815,
+            "rms": 0.059402213372097085,
+            "differenceRmsVsOff": 0.0024759831721097433
+          },
+          "vinyl-only": {
+            "rate": 44100,
+            "frames": 441000,
+            "finite": true,
+            "peak": 0.6244575381278992,
+            "rms": 0.05906327550753576,
+            "differenceRmsVsOff": 0.0036553504189137925
+          },
+          "impulse-off": {
+            "rate": 44100,
+            "frames": 65536,
+            "finite": true,
+            "peak": 0.25,
+            "rms": 0.0007720404443770458
+          },
+          "impulse-dc": {
+            "rate": 44100,
+            "frames": 65536,
+            "finite": true,
+            "peak": 0.24999289214611053,
+            "rms": 0.0007721177206693487
+          }
+        },
+        "syntheticPhase": {
+          "test": "synthetic impulse; left 0.25; right -0.125; frame 512; 65536 frames",
+          "mode": "A STANDARD (2)",
+          "magnitudeMaxAbsDb20Hz20kHz": 0.46712699540937236,
+          "phaseMinDeg20Hz20kHz": 0.0002308669122663397,
+          "phaseMaxDeg20Hz20kHz": 9.029729748445764
+        },
+        "measurementPoint": "Decoded/effected float PCM output, before the DAC; no analogue or subjective quality claim",
+        "privateAudioFilesAndFingerprintsExcluded": true,
+        "musicPlotsLocalIgnoredReleaseOnly": true,
+        "documentation": "SONY-AUDIO-MEASUREMENTS.md"
+      },
+      "sonyTranslation": {
+        "nativeArchitecture": "x86-64 C++ AOT instruction translation",
+        "originalBackend": "Unicorn 2.1.4 Cortex-A7",
+        "provenance": {
+          "sourceSha256": "f08934816d91e9e5f7f34230fc0996403bb6a063c58f03a40269476778bbe6f6",
+          "instructionGraphSha256": "217d7c102899ab3228184d72356b5db27a55aa4681c83d6a53bbf1b0d74d676b",
+          "instructionSites": 32159,
+          "pages": 65,
+          "originalAssets": 9,
+          "originalInstructionBytesVerified": true
+        },
+        "dllSha256": "f5aa02c1dd93e209c88080a96b4ec141a2cf27fc382b613d4600b0d94c43e4db",
+        "cases": 246,
+        "passed": 246,
+        "outputValues": 5046272,
+        "bitExact": true,
+        "stateBitExact": true,
+        "reproducibleCppFiles": 66,
+        "report": "SONY-X86-VERIFICATION.json",
+        "sameOriginalAssetsAndCppDll": true,
+        "full246ComparisonsRerunThisRevision": false
+      },
+      "phaseIsolation": {
+        "configurations": 24,
+        "passed": 24,
+        "leftToRightPeak": 0,
+        "rightToLeftPeak": 0,
+        "originalKernelUnmodified": true,
+        "report": "SONY-PHASE-VERIFICATION.json",
+        "finalPackage24CasesRerun": true
+      },
+      "ratePolicy": {
+        "metadataVersion": 4,
+        "alacSpecificConfigAuthoritative": true,
+        "localOldIndexUpgrade": true,
+        "ftpCachedMetadataUpgrade": true,
+        "dseeInputRates": [
+          44100,
+          48000
+        ],
+        "dcVinylInputRates": [
+          44100,
+          48000,
+          176400,
+          192000
+        ],
+        "unsupportedEffectBypassPreservesSourceRate": true,
+        "backpressureFixture": {
+          "sampleRate": 192000,
+          "seconds": 12,
+          "readerPauseMs": 300,
+          "exactFrames": 2304000
+        },
+        "utf8IncrementalJson": true
+      },
+      "checks": {
+        "audio": 30,
+        "native": 13,
+        "hiRes": 6,
+        "musicCore": {
+          "passed": 61,
+          "skipped": 3
+        },
+        "player": 18,
+        "presentation": 21,
+        "content": 18,
+        "sceneMotionCameraLightingModel": "passed",
+        "viewport": "passed",
+        "typescriptVitePwa": "passed",
+        "finalExeSelfTests": 6,
+        "desktopPlaybackCases": 18
+      },
+      "limits": [
+        "Touch input is emulated in real Electron windows; no physical Pad/iPad hardware test.",
+        "DSD64 native and DoP recovery use a balanced synthetic payload; no real raw-DSD music listening or analogue measurement.",
+        "DSD128/256, hot-plug and long-duration stability are not newly tested.",
+        "Sony amplitude spectra measure output changes; high-frequency energy is not proof of better sound or Hi-Res provenance.",
+        "Original DSEE accepts 44.1/48 kHz inputs; unsupported inputs and native DSD/DoP bypass it.",
+        "Earlier real ALAC/DSF and GPU benchmarks remain in the previous snapshot; those full measurements were not repeated on this package."
+      ],
+      "history": {
+        "scope": "Earlier measurements, hashes and limits are historical and apply to their exact package.",
+        "previousSnapshot": {
+          "schemaVersion": 2,
+          "date": "2026-10-08",
+          "scope": "Current private Windows x64 EXE; earlier same-day and October 7 records are explicitly historical.",
+          "executable": {
+            "name": "Rhine Music.exe",
+            "sha256": "811964cc38b5dd6c29baaabcf56814e685667d1011b2349e2dcd81ee286c71c6",
+            "payloadSha256": "b6ee237c1690519db92329a016e854ceb2438ac0df7555fcca9b7fb12e86f0cf",
+            "bytes": 231340544
+          },
+          "isolatedPackage": {
+            "ok": true,
+            "versions": {
+              "electron": "44.6.0",
+              "node": "24.21.0"
+            },
+            "checks": [
+              {
+                "check": "original native DLL hashes / decoder initialization",
+                "passed": true,
+                "asioDrivers": 1
+              },
+              {
+                "check": "DSF ID3 Chinese tags / artwork / unmodified raw DSD64 and DoP markers / payload",
+                "passed": true,
+                "bytes": 16384
+              },
+              {
+                "check": "nine Sony hashes / native C++ DLL hash / embedded transport / original AI, DC, Vinyl initialize",
+                "passed": true,
+                "dseeVersion": "3.0.7",
+                "backend": "x86-cpp"
+              },
+              {
+                "check": "Sony phase independent stereo histories / 24 presets and rates / bit-exact original mono reference",
+                "passed": true,
+                "cases": 24
+              },
+              {
+                "check": "three-effect x86 C++ pipeline / bundled streaming native decode",
+                "passed": true,
+                "sampleRate": 176400,
+                "workers": 3
+              },
+              {
+                "check": "silent native WASAPI playback / pause / seek / stop",
+                "passed": true
+              }
+            ],
+            "coldSeconds": 5.502,
+            "isolatedExeOnly": true,
+            "externalRuntimes": false,
+            "systemDirectoryOnlyPath": true,
+            "secondRunReused": true
+          },
+          "sourceToEmbeddedPayload": {
+            "comparedFiles": 117,
+            "allComparedFilesByteIdentical": true,
+            "nativeAudioSourceSha256": "7f854bc531037222b6d50088a715472776a7fa3048dbfac3b1fffd5519d78126",
+            "nativeAudioExeSha256": "c2a4dc23ae6ad899c25797bbd59e16e759df8689c2c9ab3de076e986ba097f4b",
+            "sonyDllSha256": "f5aa02c1dd93e209c88080a96b4ec141a2cf27fc382b613d4600b0d94c43e4db"
+          },
+          "desktop": {
+            "executableSha256": "811964cc38b5dd6c29baaabcf56814e685667d1011b2349e2dcd81ee286c71c6",
+            "actualElectronWindowBounds": true,
+            "deviceMetricsOverride": false,
+            "zoomFactor": 1,
+            "zoomResetAfterReload": 1,
+            "testedFromZoomFactor": 1.4,
+            "views": [
+              {
+                "viewport": {
+                  "width": 1267,
+                  "height": 804,
+                  "outerWidth": 1282,
+                  "outerHeight": 842,
+                  "dpr": 1.25
+                },
+                "theme": "day",
+                "layout": "desktop",
+                "coarseTouch": true,
+                "noHorizontalOverflow": true,
+                "backBelowBrand": true,
+                "minControlHeight": 44,
+                "hiResTracks": 1,
+                "dsdTracks": 1,
+                "albumBadges": [
+                  "hi-res-badge hi-res-album",
+                  "dsd-badge dsd-album"
+                ],
+                "goldSelected": true,
+                "dsdColor": "rgb(51, 58, 50)",
+                "animationTiming": "linear"
+              },
+              {
+                "viewport": {
+                  "width": 1267,
+                  "height": 804,
+                  "outerWidth": 1282,
+                  "outerHeight": 842,
+                  "dpr": 1.25
+                },
+                "theme": "night",
+                "layout": "desktop",
+                "coarseTouch": true,
+                "noHorizontalOverflow": true,
+                "backBelowBrand": true,
+                "minControlHeight": 44,
+                "hiResTracks": 1,
+                "dsdTracks": 1,
+                "albumBadges": [
+                  "hi-res-badge hi-res-album",
+                  "dsd-badge dsd-album"
+                ],
+                "goldSelected": true,
+                "dsdColor": "rgb(233, 238, 242)",
+                "animationTiming": "linear"
+              },
+              {
+                "viewport": {
+                  "width": 727,
+                  "height": 794,
+                  "outerWidth": 742,
+                  "outerHeight": 831,
+                  "dpr": 1.25
+                },
+                "theme": "day",
+                "layout": "portrait",
+                "coarseTouch": true,
+                "noHorizontalOverflow": true,
+                "backBelowBrand": true,
+                "minControlHeight": 44,
+                "hiResTracks": 1,
+                "dsdTracks": 1,
+                "albumBadges": [
+                  "hi-res-badge hi-res-album",
+                  "dsd-badge dsd-album"
+                ],
+                "goldSelected": true,
+                "dsdColor": "rgb(51, 58, 50)",
+                "animationTiming": "linear"
+              },
+              {
+                "viewport": {
+                  "width": 1027,
+                  "height": 794,
+                  "outerWidth": 1042,
+                  "outerHeight": 831,
+                  "dpr": 1.25
+                },
+                "theme": "night",
+                "layout": "compact",
+                "coarseTouch": true,
+                "noHorizontalOverflow": true,
+                "backBelowBrand": true,
+                "minControlHeight": 44,
+                "hiResTracks": 1,
+                "dsdTracks": 1,
+                "albumBadges": [
+                  "hi-res-badge hi-res-album",
+                  "dsd-badge dsd-album"
+                ],
+                "goldSelected": true,
+                "dsdColor": "rgb(233, 238, 242)",
+                "animationTiming": "linear"
+              }
+            ],
+            "dsdAsset": {
+              "originalSvgBytesPreserved": true,
+              "sha256": "cac3feb796d7942061736ba2198744a13bd801be35a46b3149248a69433ed032",
+              "transparentMask": true
+            },
+            "animation": {
+              "linear": true,
+              "changesBetweenFrames": true
+            },
+            "dsdPcmKeepsSourceBadges": true,
+            "archiveDsdBothBadges": true,
+            "mixedHiResOnlyAlbumBadge": true,
+            "mixedCdNoAlbumBadge": true,
+            "reducedMotionStops": true,
+            "systemReducedMotionStops": true,
+            "pageErrors": [],
+            "graphicsErrors": [],
+            "exitCode": 0
+          },
+          "ratePolicy": {
+            "metadataVersion": 4,
+            "alacSpecificConfigAuthoritative": true,
+            "localOldIndexUpgrade": true,
+            "ftpCachedMetadataUpgrade": true,
+            "dseeInputRates": [
+              44100,
+              48000
+            ],
+            "dcVinylInputRates": [
+              44100,
+              48000,
+              176400,
+              192000
+            ],
+            "unsupportedEffectBypassPreservesSourceRate": true,
+            "backpressureFixture": {
+              "sampleRate": 192000,
+              "seconds": 12,
+              "readerPauseMs": 300,
+              "exactFrames": 2304000
+            },
+            "utf8IncrementalJson": true
+          },
+          "realFileVerification": {
+            "sourceFiles": {
+              "alac": 9,
+              "dsf": 14,
+              "indexedAsRootSingles": true
+            },
+            "decoderPayload": {
+              "alacFiles": 9,
+              "dsfFiles": 14,
+              "comparedPcmFrames": 73728,
+              "comparedDsdBytes": 229376,
+              "filesUnchanged": true,
+              "ok": true
+            },
+            "gui": {
+              "executableSha256": "811964cc38b5dd6c29baaabcf56814e685667d1011b2349e2dcd81ee286c71c6",
+              "volume": 0,
+              "output": "FiiO ASIO Driver",
+              "alac": {
+                "metadataFiles": 9,
+                "uiSelectedTracks": 1,
+                "rate": 192000,
+                "bits": 24,
+                "hiResAlbum": true,
+                "gold": true,
+                "asioPlayed": true,
+                "sony": {
+                  "effectiveSettings": {
+                    "dsee": false,
+                    "dc": 2,
+                    "vinyl": 1
+                  },
+                  "bypassed": [
+                    "dsee"
+                  ],
+                  "message": "DSEE AI 原版组件不支持此音源参数，已旁路；保留原采样率 192 kHz。"
+                },
+                "dseeOnlyOriginalRatePlayback": true
+              },
+              "dsd": {
+                "metadataFiles": 14,
+                "uiSelectedTracks": 1,
+                "hiResAlbum": true,
+                "dsdAlbum": true,
+                "gold": true,
+                "sourceRate": 2822400,
+                "convertedPcmKeepsSourceBadges": true
+              },
+              "sourceRootFilesRemainSingleAlbums": true,
+              "noRealCoverScreenshotsPublished": true,
+              "exitCode": 0
+            }
+          },
+          "fiioHardware": {
+            "driver": "FiiO ASIO Driver",
+            "outputs": 2,
+            "channels": [
+              {
+                "format": 18,
+                "id": 0
+              },
+              {
+                "format": 18,
+                "id": 1
+              }
+            ],
+            "pcmCapabilityRates": [
+              44100,
+              48000,
+              88200,
+              96000,
+              176400,
+              192000,
+              352800,
+              384000
+            ],
+            "dsdCapabilityRates": [
+              2822400,
+              5644800,
+              11289600
+            ],
+            "capabilitiesAreQueries": true,
+            "nativeDsdExplicitStereoCallback": true,
+            "pcmAndBalancedSilentDsd64Checks": [
+              {
+                "mode": "pcm",
+                "started": 192000,
+                "playPauseSeekStop": true
+              },
+              {
+                "mode": "native",
+                "started": 2822400,
+                "playPauseSeekStop": true
+              },
+              {
+                "mode": "dop",
+                "started": 176400,
+                "playPauseSeekStop": true
+              }
+            ],
+            "realDsfPausedOpenAndSeek": {
+              "nativeOpened": true,
+              "nativeSeek": true,
+              "sourceSampleRate": 2822400
+            },
+            "real192kAlacDcVinyl": {
+              "rate": 192000,
+              "originalDcVinyl": true,
+              "dseeBypassed": true,
+              "firstBufferSeconds": 0.92,
+              "asioPlayed": true
+            },
+            "noSubjectiveRawDsdMusicListening": true
+          },
+          "performance": {
+            "syntheticLibrary": true,
+            "albums": 76,
+            "tracks": 80,
+            "sampleSeconds": 6,
+            "scrollInputs": 18,
+            "scrollIntervalMs": 200,
+            "viewport": {
+              "width": 1266,
+              "height": 779,
+              "dpr": 1.25,
+              "screen": 1536,
+              "outerWidth": 1280
+            },
+            "renderer": "ANGLE (NVIDIA, NVIDIA RTX A4500 (0x00002232) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+            "effectiveRenderQuality": {
+              "ratio": 1.250394968813253,
+              "width": 1583,
+              "height": 974,
+              "limited": false,
+              "antialias": "smaa",
+              "transmission": 1,
+              "anisotropy": 16,
+              "aoSamples": 32,
+              "aoWidth": 1583,
+              "aoHeight": 974,
+              "shadows": 4096,
+              "depthOfField": 100
+            },
+            "sameRenderQuality": true,
+            "before": {
+              "executableSha256": "c6062ac7437809266b24d94a5aac35cd83e8aa64f368ca62c8aad40be7230b4d",
+              "samples": [
+                {
+                  "name": "archive",
+                  "frames": 599,
+                  "averageFps": 99.65005832361273,
+                  "p50Ms": 10,
+                  "p95Ms": 10.100000000000364,
+                  "p99Ms": 10.199999999998909,
+                  "maxMs": 10.200000000000728,
+                  "longFramesOver50Ms": 0,
+                  "drawCalls": 46,
+                  "triangles": 1172580
+                },
+                {
+                  "name": "scroll-array",
+                  "frames": 76,
+                  "averageFps": 12.974880631098195,
+                  "p50Ms": 10.100000000000364,
+                  "p95Ms": 291,
+                  "p99Ms": 291.10000000000036,
+                  "maxMs": 291.10000000000036,
+                  "longFramesOver50Ms": 19,
+                  "drawCalls": 284,
+                  "triangles": 1210492
+                },
+                {
+                  "name": "open-detail",
+                  "frames": 32,
+                  "averageFps": 5.400508693076896,
+                  "p50Ms": 260.90000000000146,
+                  "p95Ms": 291,
+                  "p99Ms": 291,
+                  "maxMs": 291,
+                  "longFramesOver50Ms": 21,
+                  "drawCalls": 233,
+                  "triangles": 1202368
+                },
+                {
+                  "name": "detail",
+                  "frames": 599,
+                  "averageFps": 99.64839779373784,
+                  "p50Ms": 10,
+                  "p95Ms": 10.10000000000582,
+                  "p99Ms": 10.19999999999709,
+                  "maxMs": 10.200000000004366,
+                  "longFramesOver50Ms": 0,
+                  "drawCalls": 46,
+                  "triangles": 1172580
+                },
+                {
+                  "name": "theme",
+                  "frames": 598,
+                  "averageFps": 99.64781091953066,
+                  "p50Ms": 10,
+                  "p95Ms": 10.10000000000582,
+                  "p99Ms": 10.19999999999709,
+                  "maxMs": 10.200000000004366,
+                  "longFramesOver50Ms": 0,
+                  "drawCalls": 48,
+                  "triangles": 1172580
+                },
+                {
+                  "name": "next-album",
+                  "frames": 574,
+                  "averageFps": 95.6434651977967,
+                  "p50Ms": 10,
+                  "p95Ms": 10.10000000000582,
+                  "p99Ms": 10.10000000000582,
+                  "maxMs": 250.79999999999563,
+                  "longFramesOver50Ms": 1,
+                  "drawCalls": 48,
+                  "triangles": 1172580
+                },
+                {
+                  "name": "profile",
+                  "frames": 599,
+                  "averageFps": 99.65005832361273,
+                  "p50Ms": 10,
+                  "p95Ms": 10.10000000000582,
+                  "p99Ms": 10.10000000000582,
+                  "maxMs": 10.200000000004366,
+                  "longFramesOver50Ms": 0,
+                  "drawCalls": 48,
+                  "triangles": 1172580
+                }
+              ]
+            },
+            "after": {
+              "executableSha256": "811964cc38b5dd6c29baaabcf56814e685667d1011b2349e2dcd81ee286c71c6",
+              "samples": [
+                {
+                  "name": "archive",
+                  "frames": 599,
+                  "averageFps": 99.65005832361271,
+                  "p50Ms": 10,
+                  "p95Ms": 10.100000000000364,
+                  "p99Ms": 10.100000000000364,
+                  "maxMs": 10.200000000000728,
+                  "longFramesOver50Ms": 0,
+                  "drawCalls": 46,
+                  "triangles": 1172580
+                },
+                {
+                  "name": "scroll-array",
+                  "frames": 583,
+                  "averageFps": 97.1440970773314,
+                  "p50Ms": 10,
+                  "p95Ms": 10.100000000002183,
+                  "p99Ms": 10.200000000000728,
+                  "maxMs": 120.39999999999964,
+                  "longFramesOver50Ms": 1,
+                  "drawCalls": 63,
+                  "triangles": 1175288
+                },
+                {
+                  "name": "open-detail",
+                  "frames": 592,
+                  "averageFps": 98.4803039392122,
+                  "p50Ms": 10,
+                  "p95Ms": 10.100000000002183,
+                  "p99Ms": 10.200000000000728,
+                  "maxMs": 50.20000000000073,
+                  "longFramesOver50Ms": 1,
+                  "drawCalls": 46,
+                  "triangles": 1172580
+                },
+                {
+                  "name": "detail",
+                  "frames": 598,
+                  "averageFps": 99.64947421131697,
+                  "p50Ms": 10,
+                  "p95Ms": 10.100000000002183,
+                  "p99Ms": 10.100000000002183,
+                  "maxMs": 10.200000000000728,
+                  "longFramesOver50Ms": 0,
+                  "drawCalls": 46,
+                  "triangles": 1172580
+                },
+                {
+                  "name": "theme",
+                  "frames": 598,
+                  "averageFps": 99.48341943009493,
+                  "p50Ms": 10,
+                  "p95Ms": 10.10000000000582,
+                  "p99Ms": 10.10000000000582,
+                  "maxMs": 20,
+                  "longFramesOver50Ms": 0,
+                  "drawCalls": 48,
+                  "triangles": 1172580
+                },
+                {
+                  "name": "next-album",
+                  "frames": 599,
+                  "averageFps": 99.64839779373784,
+                  "p50Ms": 10,
+                  "p95Ms": 10.10000000000582,
+                  "p99Ms": 10.19999999999709,
+                  "maxMs": 10.200000000004366,
+                  "longFramesOver50Ms": 0,
+                  "drawCalls": 48,
+                  "triangles": 1172580
+                },
+                {
+                  "name": "profile",
+                  "frames": 599,
+                  "averageFps": 99.64839779373784,
+                  "p50Ms": 10,
+                  "p95Ms": 10.10000000000582,
+                  "p99Ms": 10.200000000004366,
+                  "maxMs": 10.200000000004366,
+                  "longFramesOver50Ms": 0,
+                  "drawCalls": 48,
+                  "triangles": 1172580
+                }
+              ]
+            },
+            "allGraphicsHardwareAccelerated": true,
+            "remainingColdLongFrameMs": 120.39999999999964,
+            "errors": [],
+            "exitCode": 0
+          },
+          "sonyTranslation": {
+            "nativeArchitecture": "x86-64 C++ AOT instruction translation",
+            "originalBackend": "Unicorn 2.1.4 Cortex-A7",
+            "provenance": {
+              "sourceSha256": "f08934816d91e9e5f7f34230fc0996403bb6a063c58f03a40269476778bbe6f6",
+              "instructionGraphSha256": "217d7c102899ab3228184d72356b5db27a55aa4681c83d6a53bbf1b0d74d676b",
+              "instructionSites": 32159,
+              "pages": 65,
+              "originalAssets": 9,
+              "originalInstructionBytesVerified": true
+            },
+            "dllSha256": "f5aa02c1dd93e209c88080a96b4ec141a2cf27fc382b613d4600b0d94c43e4db",
+            "cases": 246,
+            "passed": 246,
+            "outputValues": 5046272,
+            "bitExact": true,
+            "stateBitExact": true,
+            "reproducibleCppFiles": 66,
+            "report": "SONY-X86-VERIFICATION.json",
+            "sameOriginalAssetsAndCppDll": true,
+            "full246ComparisonsRerunThisRevision": false
+          },
+          "phaseIsolation": {
+            "configurations": 24,
+            "passed": 24,
+            "leftToRightPeak": 0,
+            "rightToLeftPeak": 0,
+            "originalKernelUnmodified": true,
+            "report": "SONY-PHASE-VERIFICATION.json",
+            "finalPackage24CasesRerun": true
+          },
+          "checks": {
+            "audio": 27,
+            "native": 11,
+            "hiRes": 6,
+            "musicCore": {
+              "passed": 61,
+              "skipped": 3
+            },
+            "player": 15,
+            "presentation": 21,
+            "content": 18,
+            "sceneMotionCameraLightingModel": "passed",
+            "viewport": "passed",
+            "typescriptVitePwa": "passed",
+            "finalExeSelfTests": 6
+          },
+          "limits": [
+            "Native DSD64 and DoP hardware playback used balanced silent generated payload. Real DSF native open/seek and converted-PCM playback were tested; no analogue measurement or subjective raw-DSD music listening.",
+            "DSD128/256 clocks were queried, not played. No hot-plug or long-duration stability coverage.",
+            "Touch input was emulated in real desktop windows; no physical Pad/iPad coverage.",
+            "Source badges describe parsed files, not mastering history, DAC output resolution or device certification.",
+            "One cold 120.4 ms array-scroll frame remains in this GPU measurement; results are not a universal GPU guarantee.",
+            "Sony equality covers the supported software PCM path and unchanged original DSP assets; no complete Walkman DAC/amplifier reproduction claim.",
+            "No additional external FTP/FTPS, whole-library/all-format or Windows 10/ARM coverage this revision."
+          ],
+          "history": {
+            "scope": "Earlier private build measurements, hashes and limits below apply to that snapshot only.",
+            "previousSnapshot": {
+              "date": "2026-10-08",
+              "executable": {
+                "executable": "Rhine Music.exe",
+                "sha256": "c6062ac7437809266b24d94a5aac35cd83e8aa64f368ca62c8aad40be7230b4d",
+                "payloadSha256": "6fc1a21c2cb5678d5b708dd8ef25239a8fcf326d6f28eddd7382b7aa7a0152e6",
+                "bytes": 231328768
+              },
+              "isolatedPackage": {
+                "ok": true,
+                "versions": {
+                  "electron": "44.6.0",
+                  "node": "24.21.0"
+                },
+                "checks": [
+                  {
+                    "check": "original native DLL hashes / decoder initialization",
+                    "passed": true,
+                    "asioDrivers": 0
+                  },
+                  {
+                    "check": "DSF ID3 Chinese tags / artwork / unmodified raw DSD64 and DoP markers / payload",
+                    "passed": true,
+                    "bytes": 16384
+                  },
+                  {
+                    "check": "nine Sony hashes / native C++ DLL hash / embedded transport / original AI, DC, Vinyl initialize",
+                    "passed": true,
+                    "dseeVersion": "3.0.7",
+                    "backend": "x86-cpp"
+                  },
+                  {
+                    "check": "Sony phase independent stereo histories / 24 presets and rates / bit-exact original mono reference",
+                    "passed": true,
+                    "cases": 24
+                  },
+                  {
+                    "check": "three-effect x86 C++ pipeline / bundled streaming native decode",
+                    "passed": true,
+                    "sampleRate": 176400,
+                    "workers": 3
+                  },
+                  {
+                    "check": "silent native WASAPI playback / pause / seek / stop",
+                    "passed": true
+                  }
+                ],
+                "coldSeconds": 6.823,
+                "isolatedExeOnly": true,
+                "externalRuntimes": false,
+                "secondRunReused": true
+              },
+              "startup": {
+                "earlyReloads": 4,
+                "occupiedPortSkipped": true,
+                "startupRecovered": true,
+                "theme": "night",
+                "preferencesSurvivedProcessRestart": true,
+                "nativeReady": true,
+                "rulerChangedActualAlbum": true,
+                "ok": true,
+                "exitCode": 0,
+                "executableSha256": "c6062ac7437809266b24d94a5aac35cd83e8aa64f368ca62c8aad40be7230b4d"
+              },
+              "desktop": {
+                "executableSha256": "70c8527b175f394051fb6d9799b23829a695d62967ff26d7ddf4ee3297f8a64a",
+                "renderer": "Electron embedded Chromium / SwiftShader, 50% resolution, no shadows/AO/DOF",
+                "views": [
+                  {
+                    "width": 768,
+                    "height": 1024,
+                    "theme": "day",
+                    "metrics": {
+                      "width": 768,
+                      "height": 1024,
+                      "coarse": true,
+                      "overflow": false,
+                      "back": {
+                        "x": 22,
+                        "y": 164,
+                        "width": 156.4499969482422,
+                        "height": 44,
+                        "bottom": 208
+                      },
+                      "brand": {
+                        "x": 20,
+                        "y": 22,
+                        "width": 143.8874969482422,
+                        "height": 39.5,
+                        "bottom": 61.5
+                      },
+                      "play": {
+                        "x": 659,
+                        "y": 73.30000305175781,
+                        "width": 44,
+                        "height": 44,
+                        "bottom": 117.30000305175781
+                      },
+                      "settings": {
+                        "x": 280,
+                        "y": 73.30000305175781,
+                        "width": 44,
+                        "height": 44,
+                        "bottom": 117.30000305175781
+                      },
+                      "track": {
+                        "x": 30.712499618530273,
+                        "y": 906,
+                        "width": 691.1749877929688,
+                        "height": 51.79999923706055,
+                        "bottom": 957.7999992370605
+                      }
+                    },
+                    "controls": [
+                      {
+                        "id": "output-backend",
+                        "height": 44,
+                        "color": "rgb(35, 39, 34)",
+                        "background": "rgb(239, 237, 231)"
+                      },
+                      {
+                        "id": "output-device",
+                        "height": 44,
+                        "color": "rgb(35, 39, 34)",
+                        "background": "rgb(239, 237, 231)"
+                      },
+                      {
+                        "id": "output-channel",
+                        "height": 52.79999923706055,
+                        "color": "rgb(35, 39, 34)",
+                        "background": "rgb(239, 237, 231)"
+                      },
+                      {
+                        "id": "output-dsd",
+                        "height": 44,
+                        "color": "rgb(35, 39, 34)",
+                        "background": "rgb(239, 237, 231)"
+                      }
+                    ],
+                    "rulerSwipe": {
+                      "before": "",
+                      "after": "04"
+                    }
+                  },
+                  {
+                    "width": 1024,
+                    "height": 768,
+                    "theme": "night",
+                    "metrics": {
+                      "width": 1024,
+                      "height": 768,
+                      "coarse": true,
+                      "overflow": false,
+                      "back": {
+                        "x": 27,
+                        "y": 91,
+                        "width": 156.4499969482422,
+                        "height": 44,
+                        "bottom": 135
+                      },
+                      "brand": {
+                        "x": 25,
+                        "y": 26,
+                        "width": 156.0500030517578,
+                        "height": 40.5,
+                        "bottom": 66.5
+                      },
+                      "play": {
+                        "x": 908,
+                        "y": 30.30000114440918,
+                        "width": 44,
+                        "height": 44,
+                        "bottom": 74.30000114440918
+                      },
+                      "settings": {
+                        "x": 839.2000122070312,
+                        "y": 32.79999923706055,
+                        "width": 44,
+                        "height": 44,
+                        "bottom": 76.79999923706055
+                      },
+                      "track": {
+                        "x": 532.4750366210938,
+                        "y": 526,
+                        "width": 441.57501220703125,
+                        "height": 51.79999923706055,
+                        "bottom": 577.7999992370605
+                      }
+                    },
+                    "controls": [
+                      {
+                        "id": "output-backend",
+                        "height": 44,
+                        "color": "rgb(233, 238, 242)",
+                        "background": "rgb(22, 34, 52)"
+                      },
+                      {
+                        "id": "output-device",
+                        "height": 44,
+                        "color": "rgb(233, 238, 242)",
+                        "background": "rgb(22, 34, 52)"
+                      },
+                      {
+                        "id": "output-channel",
+                        "height": 52.79999923706055,
+                        "color": "rgb(233, 238, 242)",
+                        "background": "rgb(22, 34, 52)"
+                      },
+                      {
+                        "id": "output-dsd",
+                        "height": 44,
+                        "color": "rgb(233, 238, 242)",
+                        "background": "rgb(22, 34, 52)"
+                      }
+                    ],
+                    "rulerSwipe": {
+                      "before": "",
+                      "after": "04"
+                    }
+                  },
+                  {
+                    "width": 1280,
+                    "height": 800,
+                    "theme": "day",
+                    "metrics": {
+                      "width": 1280,
+                      "height": 800,
+                      "coarse": true,
+                      "overflow": false,
+                      "back": {
+                        "x": 42,
+                        "y": 112,
+                        "width": 156.4499969482422,
+                        "height": 44,
+                        "bottom": 156
+                      },
+                      "brand": {
+                        "x": 40,
+                        "y": 33,
+                        "width": 186.46250915527344,
+                        "height": 49.5,
+                        "bottom": 82.5
+                      },
+                      "play": {
+                        "x": 1149,
+                        "y": 41.29999923706055,
+                        "width": 44,
+                        "height": 44,
+                        "bottom": 85.29999923706055
+                      },
+                      "settings": {
+                        "x": 1070.2000732421875,
+                        "y": 43.79999923706055,
+                        "width": 44,
+                        "height": 44,
+                        "bottom": 87.79999923706055
+                      },
+                      "track": {
+                        "x": 665.6000366210938,
+                        "y": 580.7999877929688,
+                        "width": 547.7999877929688,
+                        "height": 52.60000228881836,
+                        "bottom": 633.3999900817871
+                      }
+                    },
+                    "controls": [
+                      {
+                        "id": "output-backend",
+                        "height": 44,
+                        "color": "rgb(233, 238, 242)",
+                        "background": "rgb(22, 34, 52)"
+                      },
+                      {
+                        "id": "output-device",
+                        "height": 44,
+                        "color": "rgb(233, 238, 242)",
+                        "background": "rgb(22, 34, 52)"
+                      },
+                      {
+                        "id": "output-channel",
+                        "height": 52.79999923706055,
+                        "color": "rgb(233, 238, 242)",
+                        "background": "rgb(22, 34, 52)"
+                      },
+                      {
+                        "id": "output-dsd",
+                        "height": 44,
+                        "color": "rgb(233, 238, 242)",
+                        "background": "rgb(22, 34, 52)"
+                      }
+                    ],
+                    "rulerSwipe": {
+                      "before": "",
+                      "after": "04"
+                    }
+                  },
+                  {
+                    "width": 1280,
+                    "height": 800,
+                    "theme": "night",
+                    "metrics": {
+                      "width": 1280,
+                      "height": 800,
+                      "coarse": true,
+                      "overflow": false,
+                      "back": {
+                        "x": 42,
+                        "y": 112,
+                        "width": 156.4499969482422,
+                        "height": 44,
+                        "bottom": 156
+                      },
+                      "brand": {
+                        "x": 40,
+                        "y": 33,
+                        "width": 186.46250915527344,
+                        "height": 49.5,
+                        "bottom": 82.5
+                      },
+                      "play": {
+                        "x": 1149,
+                        "y": 41.29999923706055,
+                        "width": 44,
+                        "height": 44,
+                        "bottom": 85.29999923706055
+                      },
+                      "settings": {
+                        "x": 1070.2000732421875,
+                        "y": 43.79999923706055,
+                        "width": 44,
+                        "height": 44,
+                        "bottom": 87.79999923706055
+                      },
+                      "track": {
+                        "x": 665.6000366210938,
+                        "y": 580.7999877929688,
+                        "width": 547.7999877929688,
+                        "height": 52.60000228881836,
+                        "bottom": 633.3999900817871
+                      }
+                    },
+                    "controls": [
+                      {
+                        "id": "output-backend",
+                        "height": 44,
+                        "color": "rgb(233, 238, 242)",
+                        "background": "rgb(22, 34, 52)"
+                      },
+                      {
+                        "id": "output-device",
+                        "height": 44,
+                        "color": "rgb(233, 238, 242)",
+                        "background": "rgb(22, 34, 52)"
+                      },
+                      {
+                        "id": "output-channel",
+                        "height": 52.79999923706055,
+                        "color": "rgb(233, 238, 242)",
+                        "background": "rgb(22, 34, 52)"
+                      },
+                      {
+                        "id": "output-dsd",
+                        "height": 44,
+                        "color": "rgb(233, 238, 242)",
+                        "background": "rgb(22, 34, 52)"
+                      }
+                    ],
+                    "rulerSwipe": {
+                      "before": "",
+                      "after": "04"
+                    }
+                  }
+                ],
+                "dsfPlayback": {
+                  "sampleRate": 44100,
+                  "position": 0.5698866213151927
+                },
+                "sonyPlayback": {
+                  "sampleRate": 176400,
+                  "startSeconds": 6.988,
+                  "pausedPosition": 10.240062358276644,
+                  "logos": 3,
+                  "pausedSwitchPosition": 10.240062358276644,
+                  "resumePosition": 10.244019274376418,
+                  "liveSwitchSeconds": 0.662,
+                  "globalTimelinePreserved": true,
+                  "backend": "x86-cpp",
+                  "topTitleOpensPlaybackDetail": true
+                },
+                "ftpPlayback": {
+                  "sampleRate": 44100,
+                  "position": 0.002766439909297052,
+                  "passwordExcluded": true
+                },
+                "ftpDsfPlayback": {
+                  "sampleRate": 44100,
+                  "title": "远端星河",
+                  "album": "FTP 原生 DSD 专辑",
+                  "embeddedCover": true
+                },
+                "browserMediaPlays": 0,
+                "preferencesSaved": true,
+                "errors": [],
+                "ok": true,
+                "hiRes": {
+                  "views": [
+                    {
+                      "width": 768,
+                      "height": 1024,
+                      "theme": "day",
+                      "state": {
+                        "selected": true,
+                        "albums": 3,
+                        "goldSlots": 312,
+                        "goldLeft": [
+                          161,
+                          323
+                        ],
+                        "goldRight": [
+                          618,
+                          302
+                        ]
+                      },
+                      "archiveCount": 432,
+                      "badge": {
+                        "x": 681.8875122070312,
+                        "y": 577.3500366210938,
+                        "width": 40,
+                        "height": 40
+                      },
+                      "titleRight": 667.887487411499,
+                      "insideArticle": true,
+                      "overflow": false,
+                      "reduced": "none"
+                    },
+                    {
+                      "width": 1024,
+                      "height": 768,
+                      "theme": "night",
+                      "state": {
+                        "selected": true,
+                        "albums": 3,
+                        "goldSlots": 312,
+                        "goldLeft": [
+                          52,
+                          388
+                        ],
+                        "goldRight": [
+                          470,
+                          368
+                        ]
+                      },
+                      "archiveCount": 432,
+                      "badge": {
+                        "x": 923.6500244140625,
+                        "y": 197.5,
+                        "width": 40,
+                        "height": 40
+                      },
+                      "titleRight": 905.6500549316406,
+                      "insideArticle": true,
+                      "overflow": false,
+                      "reduced": "none"
+                    },
+                    {
+                      "width": 1280,
+                      "height": 800,
+                      "theme": "day",
+                      "state": {
+                        "selected": true,
+                        "albums": 3,
+                        "goldSlots": 312,
+                        "goldLeft": [
+                          65,
+                          430
+                        ],
+                        "goldRight": [
+                          587,
+                          405
+                        ]
+                      },
+                      "archiveCount": 432,
+                      "badge": {
+                        "x": 1158.2000732421875,
+                        "y": 236.3874969482422,
+                        "width": 44.79999923706055,
+                        "height": 44.79999923706055
+                      },
+                      "titleRight": 1140.2000427246094,
+                      "insideArticle": true,
+                      "overflow": false,
+                      "reduced": "none"
+                    },
+                    {
+                      "width": 1280,
+                      "height": 800,
+                      "theme": "night",
+                      "state": {
+                        "selected": true,
+                        "albums": 3,
+                        "goldSlots": 312,
+                        "goldLeft": [
+                          65,
+                          430
+                        ],
+                        "goldRight": [
+                          587,
+                          405
+                        ]
+                      },
+                      "archiveCount": 432,
+                      "badge": {
+                        "x": 1158.2000732421875,
+                        "y": 236.3874969482422,
+                        "width": 44.79999923706055,
+                        "height": 44.79999923706055
+                      },
+                      "titleRight": 1140.2000427246094,
+                      "insideArticle": true,
+                      "overflow": false,
+                      "reduced": "none"
+                    }
+                  ],
+                  "mixedAlbumCorrect": true,
+                  "cdAlbumCorrect": true,
+                  "archiveBadgeCorrect": true,
+                  "animation": {
+                    "timing": "linear",
+                    "constantSpeedReflection": true,
+                    "framesChanged": true
+                  },
+                  "reducedMotionStops": true,
+                  "ftpKnownMetadataUpdates": true,
+                  "themeContrast": {
+                    "executableSha256": "c6062ac7437809266b24d94a5aac35cd83e8aa64f368ca62c8aad40be7230b4d",
+                    "themes": [
+                      {
+                        "theme": "day",
+                        "trackColor": "rgb(35, 39, 34)",
+                        "selectedThemeTextColor": "rgb(239, 237, 231)",
+                        "hiRes": {
+                          "selected": true,
+                          "albums": 3,
+                          "goldSlots": 312,
+                          "goldLeft": [
+                            65,
+                            430
+                          ],
+                          "goldRight": [
+                            587,
+                            405
+                          ]
+                        },
+                        "animation": "hi-res-reflection"
+                      },
+                      {
+                        "theme": "night",
+                        "trackColor": "rgb(233, 238, 242)",
+                        "selectedThemeTextColor": "rgb(22, 34, 52)",
+                        "hiRes": {
+                          "selected": true,
+                          "albums": 3,
+                          "goldSlots": 312,
+                          "goldLeft": [
+                            65,
+                            430
+                          ],
+                          "goldRight": [
+                            587,
+                            405
+                          ]
+                        },
+                        "animation": "hi-res-reflection"
+                      }
+                    ],
+                    "errors": [],
+                    "ok": true,
+                    "exitCode": 0
+                  }
+                },
+                "graphicsErrors": [],
+                "finalPackageEquivalence": {
+                  "guiExecutableSha256": "70c8527b175f394051fb6d9799b23829a695d62967ff26d7ddf4ee3297f8a64a",
+                  "finalExecutableSha256": "c6062ac7437809266b24d94a5aac35cd83e8aa64f368ca62c8aad40be7230b4d",
+                  "runtimeFiles": 1871,
+                  "allPayloadFilesByteIdentical": true,
+                  "generatedMarkerExcluded": ".ready stores the ZIP hash and is created after extraction, outside the payload.",
+                  "reason": "The outer package hash changed after rebuilding; every embedded runtime file compares byte for byte with the window-tested package."
+                }
+              },
+              "sonyTranslation": {
+                "nativeArchitecture": "x86-64 C++ AOT instruction translation",
+                "originalBackend": "Unicorn 2.1.4 Cortex-A7",
+                "provenance": {
+                  "sourceSha256": "f08934816d91e9e5f7f34230fc0996403bb6a063c58f03a40269476778bbe6f6",
+                  "instructionGraphSha256": "217d7c102899ab3228184d72356b5db27a55aa4681c83d6a53bbf1b0d74d676b",
+                  "instructionSites": 32159,
+                  "pages": 65,
+                  "originalAssets": 9,
+                  "originalInstructionBytesVerified": true
+                },
+                "dllSha256": "f5aa02c1dd93e209c88080a96b4ec141a2cf27fc382b613d4600b0d94c43e4db",
+                "cases": 246,
+                "passed": 246,
+                "outputValues": 5046272,
+                "bitExact": true,
+                "stateBitExact": true,
+                "reproducibleCppFiles": 66,
+                "report": "SONY-X86-VERIFICATION.json"
+              },
+              "phaseIsolation": {
+                "configurations": 24,
+                "passed": 24,
+                "leftToRightPeak": 0,
+                "rightToLeftPeak": 0,
+                "originalKernelUnmodified": true,
+                "report": "SONY-PHASE-VERIFICATION.json"
+              },
+              "nativeSony": {
+                "startedBeforeCompletion": true,
+                "firstBufferSeconds": 0.894,
+                "startProgress": 0.055582766439909295,
+                "positionBeforeCompletion": 0.6929535147392291,
+                "seekToUnfinishedPosition": true,
+                "finishedSeconds": 3.306,
+                "pcmSha256": "5f903fe249b80b49546a173eab5af9b8ceff1b1a00fd933871d30861826c85ae",
+                "sampleRate": 176400,
+                "frames": 3528000,
+                "workers": 3,
+                "allSamplesFinite": true
+              },
+              "liveSwitch": {
+                "stopSeconds": 0.005,
+                "backend": "x86-cpp",
+                "longTrackSeconds": 300,
+                "firstStartPosition": 180.123,
+                "firstBufferSeconds": 0.585,
+                "changedBufferSeconds": 0.67,
+                "globalTimelinePreserved": true,
+                "oldProducerCancelled": true,
+                "startsBeforeWholeTrackComplete": true,
+                "ok": true
+              },
+              "decoderFormats": {
+                "synthetic": true,
+                "results": [
+                  {
+                    "format": "mp3",
+                    "rate": 44100,
+                    "sourceChannels": 2,
+                    "frames": 181824,
+                    "seekOffset": 2.1129931972789118,
+                    "remainingFrames": 88641,
+                    "exactStreamLength": true,
+                    "streamEqualsFile": true,
+                    "finite": true,
+                    "monoDuplicated": false
+                  },
+                  {
+                    "format": "m4a",
+                    "rate": 48000,
+                    "sourceChannels": 2,
+                    "frames": 197904,
+                    "seekOffset": 2.113,
+                    "remainingFrames": 96480,
+                    "exactStreamLength": true,
+                    "streamEqualsFile": true,
+                    "finite": true,
+                    "monoDuplicated": false
+                  },
+                  {
+                    "format": "flac",
+                    "rate": 44100,
+                    "sourceChannels": 2,
+                    "frames": 181824,
+                    "seekOffset": 2.1129931972789118,
+                    "remainingFrames": 88641,
+                    "exactStreamLength": true,
+                    "streamEqualsFile": true,
+                    "finite": true,
+                    "monoDuplicated": false
+                  },
+                  {
+                    "format": "wav",
+                    "rate": 48000,
+                    "sourceChannels": 1,
+                    "frames": 197904,
+                    "seekOffset": 2.113,
+                    "remainingFrames": 96480,
+                    "exactStreamLength": true,
+                    "streamEqualsFile": true,
+                    "finite": true,
+                    "monoDuplicated": true
+                  },
+                  {
+                    "format": "aiff",
+                    "rate": 44100,
+                    "sourceChannels": 2,
+                    "frames": 181824,
+                    "seekOffset": 2.1129931972789118,
+                    "remainingFrames": 88641,
+                    "exactStreamLength": true,
+                    "streamEqualsFile": true,
+                    "finite": true,
+                    "monoDuplicated": false
+                  }
+                ]
+              },
+              "aacSony": {
+                "generatedAAC": true,
+                "inputFrames": 11376,
+                "outputFrames": 45504,
+                "sampleRate": 192000,
+                "backend": "x86-cpp",
+                "threeOriginalEffects": true,
+                "exactDuration": true,
+                "passed": true
+              },
+              "readonlyRealTrack": {
+                "sampleRate": 44100,
+                "dsee": true,
+                "dc": 2,
+                "vinyl": 1,
+                "frames": 441000,
+                "pattern": "ALAC-native-sample",
+                "bitExact": true,
+                "stateBitExact": true,
+                "outputRate": 176400,
+                "outputValues": 3528000,
+                "originalSeconds": 18.216307800001232,
+                "nativeSeconds": 3.3066018000026816,
+                "originalInitSeconds": 0.02962660000048345,
+                "nativeInitSeconds": 0.00629789999948116,
+                "speedup": 5.509072123527683,
+                "sourceUnchanged": true,
+                "fullNativeDecodeFramesExact": true,
+                "sourceSampleRate": 44100
+              },
+              "checks": {
+                "portableOneClickBuild": "passed, including 246 original ARM comparisons; subsequent AAC and rapid paused-change fixes rebuilt and retested; Hi-Res additions passed audio, source metadata, glass, music, content, viewport, build and final EXE checks",
+                "native": 10,
+                "audio": 24,
+                "musicCore": {
+                  "passed": 61,
+                  "skipped": 3
+                },
+                "content": 18,
+                "viewport": "passed",
+                "typescriptVitePwa": "passed",
+                "finalExeSelfTests": 6,
+                "hiRes": 5
+              },
+              "limits": [
+                "Bit equality covers the supported software PCM paths; no complete Walkman hardware reproduction claim.",
+                "No physical ASIO / DSD DAC or hot-plug test.",
+                "Touch input is emulated; no physical Pad / iPad test.",
+                "No external FTP / actual FTPS / entire-library / long-duration coverage."
+              ],
+              "researchCopy": {
+                "directory": "Extracted-Research-2026-10-07",
+                "generatedCppFiles": 66,
+                "sourceSha256": "09e2d3c4dbd546bf5a0c3acb1ac46e8ee547c4afd3f827708beaced762629abb",
+                "codeGraph": {
+                  "sourceSha256": "f08934816d91e9e5f7f34230fc0996403bb6a063c58f03a40269476778bbe6f6",
+                  "instructionGraphSha256": "217d7c102899ab3228184d72356b5db27a55aa4681c83d6a53bbf1b0d74d676b",
+                  "instructionSites": 32159,
+                  "pages": 65,
+                  "originalAssets": 9,
+                  "originalInstructionBytesVerified": true
+                },
+                "probe": {
+                  "ready": true,
+                  "versions": [
+                    196615,
+                    65536,
+                    65536
+                  ],
+                  "sampleRate": 176400,
+                  "phaseStereoIsolation": true,
+                  "backend": "x86-cpp"
+                }
+              }
+            }
+          },
+          "researchCopy": {
+            "directory": "Extracted-Research-2026-10-07",
+            "status": "Current sources/assets copied, hash-checked and independently initialized.",
+            "generatedCppFiles": 66,
+            "sourceSha256": "09e2d3c4dbd546bf5a0c3acb1ac46e8ee547c4afd3f827708beaced762629abb",
+            "codeGraph": {
+              "sourceSha256": "f08934816d91e9e5f7f34230fc0996403bb6a063c58f03a40269476778bbe6f6",
+              "instructionGraphSha256": "217d7c102899ab3228184d72356b5db27a55aa4681c83d6a53bbf1b0d74d676b",
+              "instructionSites": 32159,
+              "pages": 65,
+              "originalAssets": 9,
+              "originalInstructionBytesVerified": true
+            },
+            "probe": {
+              "ready": true,
+              "versions": [
+                196615,
+                65536,
+                65536
+              ],
+              "sampleRate": 176400,
+              "phaseStereoIsolation": true,
+              "backend": "x86-cpp"
+            },
+            "privateMusicCacheCredentialsExcluded": true
+          }
+        }
+      },
+      "researchCopy": {
+        "directory": "Extracted-Research-2026-10-07",
+        "status": "Final playback/recovery sources, original Sony files, native components, plots of synthetic data and documents copied and hash-checked; probe passed.",
+        "sourceSha256": "09e2d3c4dbd546bf5a0c3acb1ac46e8ee547c4afd3f827708beaced762629abb",
+        "generatedCppFiles": 66,
+        "codeGraph": {
+          "sourceSha256": "f08934816d91e9e5f7f34230fc0996403bb6a063c58f03a40269476778bbe6f6",
+          "instructionGraphSha256": "217d7c102899ab3228184d72356b5db27a55aa4681c83d6a53bbf1b0d74d676b",
+          "instructionSites": 32159,
+          "pages": 65,
+          "originalAssets": 9,
+          "originalInstructionBytesVerified": true
+        },
+        "probe": {
+          "ready": true,
+          "versions": [
+            196615,
+            65536,
+            65536
+          ],
+          "sampleRate": 176400,
+          "phaseStereoIsolation": true,
+          "backend": "x86-cpp"
+        },
+        "privateMusicCacheCredentialsExcluded": true
+      }
+    }
+  },
+  "researchCopy": {
+    "directory": "Extracted-Research-2026-10-07",
+    "status": "Current glass/playback sources, original Sony files, compiled DSP, documentation and synthetic screenshots copied and hash-checked.",
+    "sourceSha256": "09e2d3c4dbd546bf5a0c3acb1ac46e8ee547c4afd3f827708beaced762629abb",
+    "generatedCppFiles": 66,
+    "codeGraph": {
+      "sourceSha256": "f08934816d91e9e5f7f34230fc0996403bb6a063c58f03a40269476778bbe6f6",
+      "instructionGraphSha256": "217d7c102899ab3228184d72356b5db27a55aa4681c83d6a53bbf1b0d74d676b",
+      "instructionSites": 32159,
+      "pages": 65,
+      "originalAssets": 9,
+      "originalInstructionBytesVerified": true
+    },
+    "privateMusicCacheCredentialsExcluded": true
+  }
+}

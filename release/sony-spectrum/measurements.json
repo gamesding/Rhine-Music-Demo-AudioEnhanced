@@ -1,0 +1,71 @@
+{
+  "sourceSeconds": 10,
+  "sourceRate": 44100,
+  "channels": 2,
+  "method": "Hann Welch PSD; 0.18576 s windows; 50% overlap; stereo-mean power; first 1 s and last 0.5 s excluded; common absolute dBFS/Hz normalization",
+  "on": {
+    "dsee": true,
+    "dc": 2,
+    "vinyl": 1
+  },
+  "outputs": {
+    "off": {
+      "rate": 44100,
+      "frames": 441000,
+      "finite": true,
+      "peak": 0.62493896484375,
+      "rms": 0.05853835199686007
+    },
+    "all-on": {
+      "rate": 176400,
+      "frames": 1764000,
+      "finite": true,
+      "peak": 0.6377777457237244,
+      "rms": 0.05999167289194874
+    },
+    "dsee-only": {
+      "rate": 176400,
+      "frames": 1764000,
+      "finite": true,
+      "peak": 0.6312597990036011,
+      "rms": 0.058658311620134275
+    },
+    "dc-only": {
+      "rate": 44100,
+      "frames": 441000,
+      "finite": true,
+      "peak": 0.6238279938697815,
+      "rms": 0.059402213372097085,
+      "differenceRmsVsOff": 0.0024759831721097433
+    },
+    "vinyl-only": {
+      "rate": 44100,
+      "frames": 441000,
+      "finite": true,
+      "peak": 0.6244575381278992,
+      "rms": 0.05906327550753576,
+      "differenceRmsVsOff": 0.0036553504189137925
+    },
+    "impulse-off": {
+      "rate": 44100,
+      "frames": 65536,
+      "finite": true,
+      "peak": 0.25,
+      "rms": 0.0007720404443770458
+    },
+    "impulse-dc": {
+      "rate": 44100,
+      "frames": 65536,
+      "finite": true,
+      "peak": 0.24999289214611053,
+      "rms": 0.0007721177206693487
+    }
+  },
+  "dcImpulse": {
+    "test": "synthetic impulse; left 0.25; right -0.125; frame 512; 65536 frames",
+    "mode": "A STANDARD (2)",
+    "magnitudeMaxAbsDb20Hz20kHz": 0.46712699540937236,
+    "phaseMinDeg20Hz20kHz": 0.0002308669122663397,
+    "phaseMaxDeg20Hz20kHz": 9.029729748445764
+  }
+}
