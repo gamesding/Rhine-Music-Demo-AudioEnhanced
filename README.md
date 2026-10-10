@@ -1,5 +1,6 @@
 # Rhine Music · Windows 增强版
 
+<img width="1920" height="989" alt="{5D4C78CB-FD6E-4E5B-8F95-4EF450F551C2}" src="https://github.com/user-attachments/assets/ebf83f26-18c2-4966-b375-f64db2c2f3fd" />
 基于 V0.3.0 的私人音乐播放器：用三维玻璃 CD 盒浏览本地与 FTP 收藏，在独立桌面窗口中播放，由 C++ 音频进程负责解码及 WASAPI／ASIO 输出。
 
 音乐适配与维护：[RonaldDeng](https://github.com/RonaldDeng) · 上游：[LBEILC / RhineLabUI](https://github.com/LBEILC/RhineLabUI)
